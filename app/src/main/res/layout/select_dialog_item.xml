@@ -1,0 +1,12 @@
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/text1"
+        android:background="@drawable/card_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/primary_text"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"/>

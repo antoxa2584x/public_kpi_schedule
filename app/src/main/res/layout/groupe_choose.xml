@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="240dp"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+        android:id="@+id/coose_group_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="48dp"
+        android:clickable="true"
+        android:completionThreshold="2"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="textCapCharacters"
+        android:paddingTop="16dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        app:met_baseColor="#707070"
+        app:met_primaryColor="@color/primary">
+
+        <requestFocus />
+
+    </com.rengwuxian.materialedittext.MaterialAutoCompleteTextView>
+
+</LinearLayout>

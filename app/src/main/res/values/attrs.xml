@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+
+        <declare-styleable name="SubsamplingScaleImageView">
+            <attr name="src" format="reference"/>
+            <attr name="assetName" format="string"/>
+            <attr name="panEnabled" format="boolean"/>
+            <attr name="zoomEnabled" format="boolean"/>
+            <attr name="tileBackgroundColor" format="color"/>
+        </declare-styleable>
+
+</resources>

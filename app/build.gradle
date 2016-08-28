@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'io.fabric'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'your_alies'
+            keyPassword 'your_password'
+            storeFile file('your_location')
+            storePassword 'your_another_password'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion '23.0.3'
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 100160827
+        versionName "5.1.0"
+        signingConfig signingConfigs.release
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:design:24.1.1'
+    compile 'com.android.support:cardview-v7:24.1.1'
+    compile 'com.google.android.gms:play-services-ads:9.4.0'
+    compile 'com.google.android.gms:play-services-maps:9.4.0'
+    compile 'com.google.android.gms:play-services-location:9.4.0'
+    compile 'com.android.support:support-v4:24.1.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.5.0'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.7'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.github.gabrielemariotti.cards:cardslib-core:2.1.0'
+    compile 'com.github.gabrielemariotti.cards:cardslib-cards:2.1.0'
+    compile 'com.afollestad.material-dialogs:commons:0.9.0.1'
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0'
+
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+    compile 'com.github.ozodrukh:CircularReveal:2.0.1'
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.0@aar') {
+        transitive = true;
+    }
+
+    compile 'com.google.code.gson:gson:2.7'
+
+    provided "org.projectlombok:lombok:1.16.10"
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Основне">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_notification"
+            android:summary="Відображати повідомлення про початок наступної пари"
+            android:title="Відображати повідомлення"
+            android:enabled="false"/>
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:key="notification_delay"
+            android:summary="Затримка повідомлення перед початком пари"
+            android:title="Затримка повідомлень"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"
+            android:defaultValue="15"
+            android:enabled="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Інтерфейс">
+        <!--<com.afollestad.materialdialogs.prefs.MaterialListPreference-->
+            <!--android:entries="@array/colors"-->
+            <!--android:entryValues="@array/color_codes"-->
+            <!--android:key="color_scheme"-->
+            <!--android:defaultValue="#2196F3"-->
+            <!--android:title="Тема" />-->
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="false"-->
+            <!--android:key="material_header"-->
+            <!--android:title="Адаптивний хедер"-->
+            <!--android:summary="Змінювати колір хедеру карток згідно теми" />-->
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_map"
+            android:summary="Відображати місце знаходження корпусу"
+            android:title="Відображати мапу" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="today"
+            android:summary="Відображати картку з сьогоднішнім днем при відкритті"
+            android:title="Розумний розклад" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_ads"
+            android:summary="Відображати рекламний банер"
+            android:title="Допомогти розробникам" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Відладка">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="write_log"
+            android:summary="Записати інформацію відладки у файл"
+            android:title="Записувати лог" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Інформація">
+    <Preference
+        android:key=""
+        android:title="Про додаток">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.goldenpiedevs.schedule.app.activitys.AboutActivity"
+            android:targetPackage="com.goldenpiedevs.schedule.app" />
+    </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

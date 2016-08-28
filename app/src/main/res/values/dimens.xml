@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="android_spaces_large">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+
+
+    <dimen name="fab_scroll_threshold">4dp</dimen>
+    <dimen name="header_size">250dp</dimen>
+
+    <dimen name="notification_bar_size">0dp</dimen>
+
+</resources>

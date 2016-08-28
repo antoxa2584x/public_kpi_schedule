@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="com.goldenpiedevs.schedule.app.activitys.FirstRunActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/relativeLayout4"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="18sp"
+            android:layout_alignLeft="@+id/coose_group_text_view"
+            android:layout_alignRight="@+id/coose_group_text_view"
+            android:text="@string/add_group_extra_title"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:layout_above="@+id/coose_group_text_view" />
+        <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+            android:id="@+id/coose_group_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@color/secondary_text"
+            app:met_primaryColor="@color/primary"
+            android:hint="@string/add_group_title"
+            android:completionThreshold="2"
+            android:singleLine="true"
+            android:height="48dp"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:inputType="textCapCharacters"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:imeOptions="actionGo">
+
+            <requestFocus />
+
+        </com.rengwuxian.materialedittext.MaterialAutoCompleteTextView>
+
+    </RelativeLayout>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="@color/pink"
+        app:fab_colorPressed="@color/pink_dark"
+        android:src="@drawable/ic_done_white_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView10"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/img_2"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_alignRight="@+id/relativeLayout4"
+        android:layout_alignEnd="@+id/relativeLayout4"
+        android:layout_alignLeft="@+id/relativeLayout4"
+        android:layout_alignStart="@+id/relativeLayout4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/relativeLayout4"
+        android:background="#7d2196f3"
+        android:layout_alignTop="@+id/imageView10"
+        android:elevation="2dp">
+
+        <TextView
+            style="@style/card.native.header_simple_title"
+            android:textSize="26sp"
+            android:layout_width="fill_parent"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/add_group"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginBottom="16dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

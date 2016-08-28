@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Main.Activity" parent="Theme.Main.Activity.Base">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+    <style name="Theme.FirstRun.Activity" parent="Theme.Main.Activity.Base">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Theme.Radio.Activity" parent="Theme.Main.Activity.Base">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimary">#9C854F</item>
+        <item name="colorPrimaryDark">#221205</item>
+        <item name="colorAccent">#DBC79A</item>
+    </style>
+
+
+    <style name="Theme.FullInfo.Activity" parent="Theme.Main.Activity.Base">
+        <item name="android:elevation">6dp</item>
+    </style>
+
+    <style name="Theme.Kpi_Schedule.FirstRun" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
+    
+    <style name="Theme.Kpi_Schedule.full" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Kpi_Schedule.full</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
+
+    <style name="Theme.Kpi_Schedule.pref" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Kpi_Schedule.pref</item>
+        <item name="android:colorAccent">@color/primary</item>
+    </style>
+
+    <style name="PopupMenu.Kpi_Schedule" parent="android:Widget.Material.PopupMenu">
+        <item name="android:popupBackground">@color/primary</item>
+    </style>
+
+    <style name="DropDownListView.Kpi_Schedule" parent="android:Widget.Material.ListView.DropDown">
+        <item name="android:popupBackground">@color/primary</item>
+    </style>
+
+    <style name="ActionBar.Solid.Kpi_Schedule" parent="android:Widget.Material.ActionBar.Solid">
+        <item name="android:displayOptions">none</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Kpi_Schedule</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Kpi_Schedule</item>
+    </style>
+
+
+    <style name="ActionBar.Solid.Kpi_Schedule.full" parent="android:Widget.Material.ActionBar.Solid">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:displayOptions">homeAsUp</item>
+    </style>
+
+    <style name="ActionBar.Solid.Kpi_Schedule.pref" parent="android:Widget.Material.ActionBar.Solid">
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+
+
+    <style name="Material.RatingBar" parent="android:Widget.Material.RatingBar">
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+    </style>
+
+</resources>

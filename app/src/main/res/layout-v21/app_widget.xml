@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_card"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    android:elevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/widget_header"
+        android:padding="12dp"
+        android:background="@drawable/background_card_header">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/widget_card_header"
+                style="@style/card.native.header_simple_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:typeface="sans"
+                android:text=""
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/widget_week"
+                style="@style/carddemo_googlenow_main_inner_lastupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_below="@+id/widget_card_header"
+                android:text=""
+                android:layout_alignLeft="@+id/widget_card_header"
+                android:layout_alignStart="@+id/widget_card_header"
+                android:layout_marginLeft="0dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Спочатку виберіть вашу группу у головному додатку"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <ListView
+        tools:listitem="@layout/widget_list_row"
+        android:id="@+id/cardListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widget_header"
+        android:dividerHeight="1dp"
+        android:layout_marginBottom="8dp"
+        android:divider="@color/divider"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty_layout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp">
+
+            <ProgressBar
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:id="@+id/progressBar"
+                android:layout_margin="8dp" />
+
+            <TextView
+                style="@style/card.native.header_simple_title"
+                android:id="@+id/textView"
+                android:text="@string/load_in_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text"
+                android:textSize="21sp"
+                android:typeface="sans"
+                android:layout_toEndOf="@+id/progressBar"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

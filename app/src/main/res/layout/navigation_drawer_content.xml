@@ -1,0 +1,268 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView13"
+            android:src="@drawable/header"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_action_content_paste" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="72dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="Поточний розклад"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/teachers_list_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_action_groups" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="72dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="Список викладачів"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/groups_list_activity"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="?attr/selectableItemBackground"-->
+    <!--android:clickable="true"-->
+    <!--android:minHeight="48dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:layout_marginStart="16dp"-->
+    <!--android:src="@drawable/ic_action_group_add" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:paddingBottom="20dp"-->
+    <!--android:paddingLeft="72dp"-->
+    <!--android:paddingRight="16dp"-->
+    <!--android:paddingTop="16dp"-->
+    <!--android:text="Список груп"-->
+    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+    <!--android:textSize="16sp" />-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/map_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_action_map" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="72dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="Мапа КПІ"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/radio_activity"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="?attr/selectableItemBackground"-->
+        <!--android:clickable="true"-->
+        <!--android:minHeight="48dp">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--android:src="@drawable/ic_av_album" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:orientation="vertical"-->
+            <!--android:paddingBottom="8dp"-->
+            <!--android:paddingTop="8dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:paddingLeft="72dp"-->
+                <!--android:paddingRight="16dp"-->
+                <!--android:text="Радіо КПІ"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:textSize="15sp" />-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/radio_desciption"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_below="@+id/textView11"-->
+                    <!--android:paddingBottom="8dp"-->
+                    <!--android:paddingLeft="72dp"-->
+                    <!--android:paddingRight="16dp"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:textColor="#a3a3a3"-->
+                    <!--android:textSize="13sp"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:maxLines="1" />-->
+        <!--</LinearLayout>-->
+
+    <!--</RelativeLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/divider" />
+
+    <RelativeLayout
+        android:id="@+id/settings_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_settings"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="72dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/menu_settings"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

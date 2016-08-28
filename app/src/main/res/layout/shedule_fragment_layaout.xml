@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.goldenpiedevs.schedule.app.modules.CustomViews.ControllableNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:id="@+id/contentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:focusableInTouchMode="false"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_first"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/weekinf"
+                style="@style/card.native.header_simple_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:text="@string/first_week"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#757575" />
+
+        </RelativeLayout>
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard0"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard1"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard2"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard3"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard4"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard5"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_second"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                android:id="@+id/weekinf2"
+                style="@style/card.native.header_simple_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:text="@string/second_week"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#757575" />
+        </RelativeLayout>
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard6"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard7"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard8"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard9"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard10"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/lessoncard11"
+            style="@style/card_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+
+            app:card_header_layout_resourceID="@layout/native_base_header_layout"
+            app:card_layout_resourceID="@layout/native_cardwithlist_layout" />
+
+        <RelativeLayout
+            android:id="@+id/blank_navbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#eeeeee"
+            android:visibility="visible">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="48dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.goldenpiedevs.schedule.app.modules.CustomViews.ControllableNestedScrollView>

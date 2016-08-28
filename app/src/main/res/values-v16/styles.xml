@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="Header.TitleText" parent="android:TextAppearance.Holo">
+                <item name="android:fontFamily">sans-serif-light</item>
+        </style>
+
+        <style name="Header.SubTitleText" parent="Header.TitleText">
+                <item name="android:fontFamily">sans-serif-condensed</item>
+        </style>
+</resources>
