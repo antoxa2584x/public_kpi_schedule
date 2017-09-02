@@ -8,8 +8,8 @@ import java.util.ArrayList;
  * Класс - обект содержащий в себе расписание на день
  */
 public class Day implements Serializable {
-    ArrayList<Lesson> day = new ArrayList<>();
-    int dayNumb;
+    private ArrayList<Lesson> day = new ArrayList<>();
+    private int dayNumb;
 
     /**
      * Добавление пары в день

@@ -495,8 +495,7 @@
                 android:id="@+id/adLayout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:visibility="gone" />
+                android:layout_margin="8dp" />
 
             <ImageView
                 android:id="@+id/refresh"

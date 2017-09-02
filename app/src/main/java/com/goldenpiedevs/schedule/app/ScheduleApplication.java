@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 
+import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.answers.Answers;
 import com.goldenpiedevs.schedule.app.dataloader.io.GroupIO;
 import com.goldenpiedevs.schedule.app.models.Weeks;
@@ -36,7 +37,7 @@ public class ScheduleApplication extends Application {
         initRateDialog();
         addSomeUkrainianLocale();
 
-        Fabric.with(this, new Answers());
+        Fabric.with(this, new Answers(), new Crashlytics());
 
         if (sPref.getInt("version_code", 0) < BuildConfig.VERSION_CODE)
             sPref.edit().putInt("version_code", BuildConfig.VERSION_CODE).apply();

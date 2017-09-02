@@ -62,7 +62,6 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -252,7 +251,7 @@ public class FullInfoActivity extends AppCompatActivity implements OnMapReadyCal
             writeSomeLog(hasMenuKey, hasBackKey, hasHomeKey);
         }
 
-        loadAdView(getPrefs().getBoolean(Const.SHOW_ADS, Boolean.parseBoolean(null)));
+        loadAdView();
     }
 
 
@@ -265,9 +264,9 @@ public class FullInfoActivity extends AppCompatActivity implements OnMapReadyCal
     }
 
     private void configureFab(int left, int top, int right, int bottom) {
-        RelativeLayout.LayoutParams fabLayoutParams = (RelativeLayout.LayoutParams) fab.getLayoutParams();
-        fabLayoutParams.setMargins(left, top, right, bottom);
-        fab.setLayoutParams(fabLayoutParams);
+//        RelativeLayout.LayoutParams fabLayoutParams = (RelativeLayout.LayoutParams) fab.getLayoutParams();
+//        fabLayoutParams.setMargins(left, top, right, bottom);
+//        fab.setLayoutParams(fabLayoutParams);
     }
 
 
@@ -312,18 +311,15 @@ public class FullInfoActivity extends AppCompatActivity implements OnMapReadyCal
 
     }
 
-    private void loadAdView(boolean show_ads) {
-        Log.e(Const.SHOW_ADS, String.valueOf(show_ads));
-        if (show_ads) {
-            adLayout.setVisibility(View.VISIBLE);
-            mAdView = new AdView(this);
-            mAdView.setAdUnitId(getResources().getString(R.string.ad_unit_id));
-            mAdView.setAdSize(AdSize.BANNER);
-            RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
-                    RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
-            adLayout.addView(mAdView, params);
-            mAdView.loadAd(new AdRequest.Builder().build());
-        } else adLayout.setVisibility(View.GONE);
+    private void loadAdView() {
+        adLayout.setVisibility(View.VISIBLE);
+        mAdView = new AdView(this);
+        mAdView.setAdUnitId(getResources().getString(R.string.ad_unit_id));
+        mAdView.setAdSize(AdSize.BANNER);
+        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
+                RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+        adLayout.addView(mAdView, params);
+        mAdView.loadAd(new AdRequest.Builder().build());
     }
 
     private void initActivity() throws InterruptedException {

@@ -13,14 +13,14 @@
 
 
     <string-array name="Times">
-        <item name="0">6:35–8:10</item>
-        <item name="1">8:30–10:05</item>
-        <item name="2">10:25–12:00</item>
-        <item name="3">12:20–13:55</item>
-        <item name="4">14:15–15:50</item>
-        <item name="5">16:10–17:45</item>
-        <item name="6">18:30–20:05</item>
-        <item name="7">20:20–21:55</item>
+        <item name="0">6:35-8:10</item>
+        <item name="1">8:30-10:05</item>
+        <item name="2">10:25-12:00</item>
+        <item name="3">12:20-13:55</item>
+        <item name="4">14:15-15:50</item>
+        <item name="5">16:10-17:45</item>
+        <item name="6">18:30-20:05</item>
+        <item name="7">20:20-21:55</item>
     </string-array>
 
     <string-array name="listArray">
@@ -43,212 +43,348 @@
 
 
     <string-array name="Groups">
-        <item>АМ-31</item>
-        <item>АМ-32</item>
+        <item>033-61ф</item>
+        <item>035-61ф-175</item>
+        <item>051-61ф-106</item>
+        <item>051-61ф-20</item>
+        <item>051-61ф-86</item>
+        <item>053-61ф (пп)</item>
+        <item>053-61ф (пп)</item>
+        <item>054-61ф-134</item>
+        <item>061-61ф-11</item>
+        <item>061-з61ф-11</item>
+        <item>073-61-ф-78</item>
+        <item>073-61ф-81</item>
+        <item>074-61ф</item>
+        <item>074-з61ф</item>
+        <item>081-61ф</item>
+        <item>081-з61ф</item>
+        <item>101-61ф-18 (етрп)</item>
+        <item>101-61ф-18 (iе)</item>
+        <item>101-61ф-18 (iе)</item>
+        <item>104-61ф-60</item>
+        <item>105-61ф-12</item>
+        <item>113-61ф-75</item>
+        <item>113-61ф-92</item>
+        <item>121-61ф-108</item>
+        <item>121-61ф-109</item>
+        <item>121-61ф-110</item>
+        <item>121-61ф-111</item>
+        <item>121-61ф-112 (пзкс)</item>
+        <item>121-61ф-112 (пзкс)</item>
+        <item>121-з61ф-108</item>
+        <item>121-з61ф-109</item>
+        <item>122-61ф</item>
+        <item>122-61ф-129</item>
+        <item>122-61ф-131</item>
+        <item>122-61ф-49</item>
+        <item>123-61ф</item>
+        <item>123-61ф-61</item>
+        <item>123-61ф-62</item>
+        <item>123-з61ф-61</item>
+        <item>123-з61ф-62</item>
+        <item>125-61ф-125</item>
+        <item>125-61ф-74</item>
+        <item>125-61ф-75</item>
+        <item>131-61ф-145</item>
+        <item>131-61ф-146</item>
+        <item>131-61ф-17</item>
+        <item>131-61ф-3</item>
+        <item>131-61ф-70</item>
+        <item>131-61ф-85</item>
+        <item>131-61ф-95</item>
+        <item>132-61ф-151</item>
+        <item>132-61ф-76 (втмiпм)</item>
+        <item>132-61ф-76 (втмiпм)</item>
+        <item>132-61ф-82</item>
+        <item>133-61ф-39</item>
+        <item>133-61ф-42</item>
+        <item>133-61ф-83</item>
+        <item>134-62ф-72</item>
+        <item>136-61ф-104 (втмiпм)</item>
+        <item>136-61ф-104 (втмiпм)</item>
+        <item>141-61ф-25 (аемсеп)</item>
+        <item>141-61ф-25 (електропос)</item>
+        <item>141-61ф-38</item>
+        <item>144-61ф-141</item>
+        <item>144-61ф-33</item>
+        <item>151-61ф-1</item>
+        <item>151-61ф-58</item>
+        <item>151-61ф-59</item>
+        <item>151-61ф-63</item>
+        <item>151-61ф-64</item>
+        <item>151-61ф-65</item>
+        <item>151-61ф-67</item>
+        <item>152-61ф-53</item>
+        <item>152-61ф-84</item>
+        <item>152-61ф-9</item>
+        <item>152-61ф-98</item>
+        <item>152-71ф-46</item>
+        <item>153-61ф-28</item>
+        <item>153-61ф-87</item>
+        <item>161-61ф</item>
+        <item>161-61ф-156 (фх)</item>
+        <item>161-61ф-156 (тнртазхт)</item>
+        <item>161-61ф-157</item>
+        <item>162-61ф-114</item>
+        <item>162-61ф-19</item>
+        <item>163-бм-61ф-57</item>
+        <item>171-61ф-29</item>
+        <item>171-61ф-30</item>
+        <item>171-61ф-31</item>
+        <item>171-61ф-5</item>
+        <item>172-61ф-117</item>
+        <item>172-61ф-118</item>
+        <item>172-61ф-119</item>
+        <item>172-61ф-44</item>
+        <item>172-61ф-56</item>
+        <item>172-61ф-6</item>
+        <item>173-61ф-126</item>
+        <item>173-з61ф-126</item>
+        <item>184-61ф-122</item>
+        <item>184-61ф-14</item>
+        <item>184-з61ф-122</item>
+        <item>186-61ф-103</item>
         <item>АМ-41</item>
         <item>АМ-42</item>
         <item>АМ-51м</item>
         <item>АМ-52м</item>
-        <item>АМ-61м</item>
-        <item>АМ-з31</item>
+        <item>АМ-61м (тпу)</item>
+        <item>АМ-61м (тпу)</item>
+        <item>АМ-71</item>
+        <item>АМ-71мп</item>
+        <item>АМ-72</item>
+        <item>АМ-72мп</item>
         <item>АМ-з41</item>
         <item>АМ-з51м</item>
-        <item>АМ-з61м</item>
-        <item>БЕ-31</item>
+        <item>АМ-з61м (тпу)</item>
+        <item>АМ-з61м (тпу)</item>
+        <item>АМ-з71</item>
+        <item>АМ-з71мп</item>
+        <item>АМ-з72</item>
+        <item>АМ-з72мп</item>
         <item>БЕ-41</item>
         <item>БЕ-51</item>
-        <item>БЕ-51м</item>
         <item>БЕ-61</item>
         <item>БЕ-61м</item>
-        <item>БЕ-61с</item>
-        <item>БІ-31</item>
+        <item>БЕ-71</item>
+        <item>БЕ-71мн</item>
+        <item>БЕ-71мп</item>
+        <item>БЕ-71ф</item>
         <item>БІ-41</item>
         <item>БІ-51</item>
-        <item>БІ-51м</item>
         <item>БІ-61</item>
         <item>БІ-61м</item>
-        <item>БІ-61с</item>
-        <item>БМ-31 (бі)</item>
-        <item>БМ-31 (бмі)</item>
-        <item>БМ-32</item>
+        <item>БІ-71</item>
+        <item>БІ-71мн</item>
+        <item>БІ-71мп</item>
+        <item>БІ-з61мп</item>
+        <item>БІ-з61с</item>
+        <item>БІ-з71мп</item>
         <item>БМ-41 (бі)</item>
         <item>БМ-41 (бмі)</item>
         <item>БМ-42</item>
         <item>БМ-51 (бі)</item>
         <item>БМ-51 (бмі)</item>
-        <item>БМ-51м (бі)</item>
-        <item>БМ-51м (бмі)</item>
         <item>БМ-61 (бі)</item>
         <item>БМ-61 (бмі)</item>
         <item>БМ-61м (бі)</item>
         <item>БМ-61м (бмі)</item>
-        <item>БМ-61с</item>
         <item>БМ-62</item>
-        <item>БП-31</item>
+        <item>БМ-71</item>
+        <item>БМ-71</item>
+        <item>БМ-71мн</item>
+        <item>БМ-71мп (бі)</item>
+        <item>БМ-71мп (бмі)</item>
+        <item>БМ-71ф (бі)</item>
+        <item>БМ-71ф (бмі)</item>
+        <item>БМ-72</item>
+        <item>БМ-72мп</item>
+        <item>БМ-73</item>
+        <item>БМ-73мп</item>
         <item>БП-41</item>
         <item>БП-51</item>
-        <item>БП-51м</item>
-        <item>БП-51с</item>
         <item>БП-61</item>
         <item>БП-61м</item>
         <item>БП-61с</item>
-        <item>БР-31</item>
-        <item>БР-32</item>
+        <item>БП-71</item>
+        <item>БП-71мн</item>
+        <item>БП-71мп</item>
+        <item>БП-71ф</item>
         <item>БР-41</item>
         <item>БР-42</item>
         <item>БР-51</item>
         <item>БР-52</item>
         <item>БР-61</item>
-        <item>БР-61с</item>
-        <item>БС-31</item>
-        <item>БС-32</item>
-        <item>БС-33</item>
+        <item>БР-71</item>
+        <item>БР-71мп</item>
+        <item>БР-71ф</item>
         <item>БС-41</item>
         <item>БС-42</item>
         <item>БС-43</item>
         <item>БС-51</item>
-        <item>БС-51м</item>
-        <item>БС-51с</item>
         <item>БС-52</item>
         <item>БС-61</item>
         <item>БС-61м</item>
         <item>БС-61с</item>
         <item>БС-62</item>
-        <item>БТ-31</item>
+        <item>БС-71</item>
+        <item>БС-71мн</item>
+        <item>БС-71мп</item>
+        <item>БС-71ф</item>
+        <item>БС-72</item>
+        <item>БС-73</item>
         <item>БТ-41</item>
         <item>БТ-51</item>
-        <item>БТ-51м</item>
         <item>БТ-61</item>
         <item>БТ-61м</item>
-        <item>БТ-61с</item>
         <item>БТ-62</item>
+        <item>БТ-71</item>
+        <item>БТ-71мн</item>
+        <item>БТ-71мп</item>
+        <item>БТ-71ф</item>
+        <item>БТ-72</item>
         <item>БТ-з51</item>
-        <item>БТ-з61</item>
-        <item>БТ-з61с</item>
-        <item>ВА-31</item>
-        <item>ВА-32</item>
+        <item>БТ-з71</item>
         <item>ВА-41</item>
         <item>ВА-42</item>
-        <item>ВА-51м</item>
-        <item>ВА-51с</item>
-        <item>ВА-61</item>
         <item>ВА-61м</item>
         <item>ВА-61с</item>
-        <item>ВВ-31</item>
-        <item>ВВ-32</item>
+        <item>ВА-71</item>
+        <item>ВА-71мн</item>
+        <item>ВА-71мп</item>
+        <item>ВА-71ф</item>
         <item>ВВ-41</item>
         <item>ВВ-42</item>
-        <item>ВВ-51м</item>
-        <item>ВВ-51с</item>
-        <item>ВВ-61</item>
         <item>ВВ-61м</item>
         <item>ВВ-61с</item>
-        <item>ВЛ-31</item>
-        <item>ВЛ-32</item>
-        <item>ВЛ-33</item>
+        <item>ВВ-71</item>
+        <item>ВВ-71мн</item>
+        <item>ВВ-71мп</item>
+        <item>ВВ-71ф</item>
+        <item>ВІ-73</item>
         <item>ВЛ-41</item>
         <item>ВЛ-42</item>
         <item>ВЛ-43</item>
         <item>ВЛ-51</item>
-        <item>ВЛ-51м</item>
-        <item>ВЛ-51с</item>
         <item>ВЛ-52</item>
-        <item>ВЛ-52м</item>
-        <item>ВЛ-52с</item>
         <item>ВЛ-61</item>
         <item>ВЛ-61м</item>
         <item>ВЛ-61с</item>
         <item>ВЛ-62</item>
         <item>ВЛ-62м</item>
         <item>ВЛ-62с</item>
-        <item>ВЛ-зп41</item>
+        <item>ВЛ-63</item>
+        <item>ВЛ-71</item>
+        <item>ВЛ-71мн</item>
+        <item>ВЛ-71мп</item>
+        <item>ВЛ-71ф</item>
+        <item>ВЛ-72</item>
+        <item>ВЛ-72мн</item>
+        <item>ВЛ-72мп</item>
+        <item>ВЛ-72ф</item>
+        <item>ВЛ-г61-2</item>
+        <item>ВЛ-з71ф</item>
+        <item>ВЛ-з72мп</item>
         <item>ВЛ-зп51</item>
         <item>ВЛ-зп61</item>
-        <item>ВЛ-п54</item>
-        <item>ВМ-51</item>
+        <item>ВЛ-зп71</item>
+        <item>ВЛ-п63</item>
+        <item>ВЛ-п73</item>
+        <item>ВМ-51-1</item>
         <item>ВМ-51-2</item>
-        <item>ДА-31</item>
-        <item>ДА-32</item>
+        <item>ВМ-61-1</item>
+        <item>ВМ-61-2</item>
         <item>ДА-41</item>
         <item>ДА-42</item>
         <item>ДА-51</item>
-        <item>ДА-51м</item>
-        <item>ДА-51с</item>
         <item>ДА-52</item>
-        <item>ДА-52м</item>
-        <item>ДА-52с</item>
         <item>ДА-61</item>
         <item>ДА-61м</item>
         <item>ДА-61с</item>
         <item>ДА-62</item>
         <item>ДА-62м</item>
         <item>ДА-62с</item>
+        <item>ДА-71</item>
+        <item>ДА-71мн</item>
+        <item>ДА-71мп</item>
+        <item>ДА-71ф (сп)</item>
+        <item>ДА-71ф (сп)</item>
+        <item>ДА-72</item>
+        <item>ДА-72мн</item>
+        <item>ДА-72мп</item>
         <item>ДА-з51м</item>
         <item>ДА-з61м</item>
-        <item>ДВ-31</item>
+        <item>ДА-з71мп</item>
+        <item>ДА-з72мн (сп)</item>
+        <item>ДА-з72мн (сп)</item>
+        <item>ДА-з72мп</item>
         <item>ДВ-41</item>
         <item>ДВ-51</item>
-        <item>ДВ-51м</item>
-        <item>ДВ-51с</item>
         <item>ДВ-61</item>
         <item>ДВ-61м</item>
         <item>ДВ-61с</item>
-        <item>ДГ-31</item>
-        <item>ДГ-32</item>
-        <item>ДГ-33</item>
+        <item>ДВ-62с</item>
+        <item>ДВ-71</item>
+        <item>ДВ-71мн</item>
+        <item>ДВ-71мп</item>
+        <item>ДВ-71ф</item>
+        <item>ДВ-72мп</item>
+        <item>ДВ-п71</item>
         <item>ДГ-41</item>
         <item>ДГ-42</item>
         <item>ДГ-51</item>
-        <item>ДГ-51м</item>
-        <item>ДГ-51с</item>
-        <item>ДГ-61</item>
         <item>ДГ-61м</item>
         <item>ДГ-61с</item>
         <item>ДГ-62</item>
         <item>ДГ-62м</item>
         <item>ДГ-62с</item>
-        <item>ДГ-п61</item>
-        <item>ДЕ-31</item>
-        <item>ДЕ-32</item>
+        <item>ДГ-71</item>
+        <item>ДГ-71мн</item>
+        <item>ДГ-71мп</item>
+        <item>ДГ-71ф</item>
+        <item>ДГ-72</item>
+        <item>ДГ-72мн</item>
+        <item>ДГ-72мп</item>
+        <item>ДГ-г61-1</item>
+        <item>ДГ-з71мп</item>
         <item>ДЕ-41</item>
         <item>ДЕ-42</item>
         <item>ДЕ-51</item>
-        <item>ДЕ-51c</item>
-        <item>ДЕ-51м</item>
         <item>ДЕ-61</item>
         <item>ДЕ-61м</item>
         <item>ДЕ-61с</item>
         <item>ДЕ-62</item>
-        <item>ДЕ-з31</item>
+        <item>ДЕ-71</item>
+        <item>ДЕ-71мн</item>
+        <item>ДЕ-71мп</item>
+        <item>ДЕ-71ф</item>
+        <item>ДЕ-72</item>
         <item>ДЕ-з41</item>
         <item>ДЕ-з51</item>
         <item>ДЕ-з51с</item>
         <item>ДЕ-з61</item>
         <item>ДЕ-з61м</item>
         <item>ДЕ-з61с</item>
+        <item>ДЕ-з71</item>
+        <item>ДЕ-з71мп</item>
         <item>ДЕ-п61</item>
-        <item>ДЗ-31</item>
-        <item>ДЗ-31/1</item>
-        <item>ДЗ-32</item>
+        <item>ДЕ-п71</item>
         <item>ДЗ-41</item>
         <item>ДЗ-51</item>
-        <item>ДЗ-51м</item>
-        <item>ДЗ-51с</item>
-        <item>ДЗ-61с</item>
-        <item>ДК-31</item>
-        <item>ДК-32</item>
         <item>ДК-41</item>
         <item>ДК-42</item>
         <item>ДК-51</item>
-        <item>ДК-51м</item>
-        <item>ДК-51с</item>
         <item>ДК-52</item>
         <item>ДК-61</item>
         <item>ДК-61м</item>
         <item>ДК-61с</item>
         <item>ДК-62</item>
-        <item>ДМ-31</item>
-        <item>ДМ-32</item>
+        <item>ДК-71</item>
+        <item>ДК-71ф</item>
+        <item>ДК-72</item>
+        <item>ДК-72мн</item>
+        <item>ДК-72мп</item>
         <item>ДМ-41</item>
         <item>ДМ-42</item>
         <item>ДМ-51</item>
@@ -256,19 +392,27 @@
         <item>ДМ-51с</item>
         <item>ДМ-52</item>
         <item>ДМ-61</item>
-        <item>ДМ-61м</item>
+        <item>ДМ-61м (фбме)</item>
+        <item>ДМ-61м (фбме)</item>
         <item>ДМ-61с</item>
         <item>ДМ-62</item>
-        <item>ДМ-62м</item>
+        <item>ДМ-62м (фбме)</item>
+        <item>ДМ-62м (фбме)</item>
         <item>ДМ-62с</item>
+        <item>ДМ-71</item>
+        <item>ДМ-71мн</item>
+        <item>ДМ-71мп</item>
+        <item>ДМ-71ф</item>
+        <item>ДМ-72</item>
+        <item>ДМ-72мн</item>
+        <item>ДМ-72мп</item>
         <item>ДМ-з71</item>
-        <item>ДП-31</item>
-        <item>ДП-32</item>
+        <item>ДМ-з71мп (фбме)</item>
+        <item>ДМ-з71мп (фбме)</item>
+        <item>ДМ-з72мп</item>
         <item>ДП-41</item>
         <item>ДП-42</item>
         <item>ДП-51</item>
-        <item>ДП-51м</item>
-        <item>ДП-51с</item>
         <item>ДП-52</item>
         <item>ДП-61</item>
         <item>ДП-61м</item>
@@ -276,201 +420,241 @@
         <item>ДП-62</item>
         <item>ДП-62м</item>
         <item>ДП-62с</item>
-        <item>ДС-31</item>
-        <item>ДС-32</item>
+        <item>ДП-71</item>
+        <item>ДП-71мн</item>
+        <item>ДП-71мп</item>
+        <item>ДП-71ф</item>
+        <item>ДП-72</item>
+        <item>ДП-72мн</item>
+        <item>ДП-72мп</item>
         <item>ДС-41</item>
         <item>ДС-42</item>
         <item>ДС-51</item>
-        <item>ДС-51м</item>
         <item>ДС-51с</item>
         <item>ДС-52</item>
         <item>ДС-61</item>
         <item>ДС-61м</item>
         <item>ДС-61с</item>
-        <item>ЕВ-31</item>
+        <item>ДС-71</item>
+        <item>ДС-71мн</item>
+        <item>ДС-71мп</item>
+        <item>ДС-71ф</item>
+        <item>ДС-з71мп</item>
         <item>ЕВ-41</item>
-        <item>ЕВ-51м</item>
-        <item>ЕВ-51с</item>
-        <item>ЕВ-61</item>
-        <item>ЕВ-61см</item>
-        <item>ЕД-31</item>
+        <item>ЕВ-61м</item>
+        <item>ЕВ-61с</item>
+        <item>ЕВ-71мн</item>
+        <item>ЕВ-71мп</item>
+        <item>ЕВ-71ф</item>
         <item>ЕД-41</item>
         <item>ЕД-51</item>
         <item>ЕД-51м</item>
-        <item>ЕД-51с</item>
         <item>ЕД-61</item>
-        <item>ЕД-61см</item>
-        <item>ЕЕ-пс51</item>
-        <item>ЕЕ-с51 (ем)</item>
-        <item>ЕЕ-с51 (ем)</item>
-        <item>ЕК-31</item>
+        <item>ЕД-61м</item>
+        <item>ЕД-61с (вде)</item>
+        <item>ЕД-61с (вде)</item>
+        <item>ЕД-71</item>
+        <item>ЕД-71мн</item>
+        <item>ЕД-71мп</item>
+        <item>ЕД-71ф</item>
+        <item>ЕЕ-51</item>
+        <item>ЕЕ-71ф</item>
+        <item>ЕЕ-п51</item>
         <item>ЕК-41</item>
         <item>ЕК-51</item>
-        <item>ЕК-51м</item>
-        <item>ЕК-51с</item>
         <item>ЕК-61</item>
-        <item>ЕК-61см</item>
-        <item>ЕК-з31</item>
+        <item>ЕК-61м</item>
+        <item>ЕК-61с</item>
+        <item>ЕК-71</item>
+        <item>ЕК-71мн</item>
+        <item>ЕК-71мп</item>
+        <item>ЕК-71ф</item>
         <item>ЕК-з41</item>
         <item>ЕК-з51</item>
         <item>ЕК-з51с</item>
         <item>ЕК-з61</item>
         <item>ЕК-з61с</item>
-        <item>ЕК-зп31</item>
+        <item>ЕК-з71</item>
+        <item>ЕК-з71мп</item>
         <item>ЕК-зп41</item>
         <item>ЕК-зп51</item>
         <item>ЕК-зп61</item>
-        <item>ЕК-п41</item>
+        <item>ЕК-зп71</item>
         <item>ЕК-п51</item>
         <item>ЕК-п61</item>
-        <item>ЕМ-31</item>
-        <item>ЕМ-32</item>
+        <item>ЕК-п71</item>
         <item>ЕМ-41</item>
         <item>ЕМ-42</item>
         <item>ЕМ-51м</item>
         <item>ЕМ-51с</item>
-        <item>ЕМ-61</item>
         <item>ЕМ-61м</item>
         <item>ЕМ-61с</item>
-        <item>ЕМ-62</item>
-        <item>ЕМ-п41</item>
-        <item>ЕП-31</item>
-        <item>ЕП-32</item>
+        <item>ЕМ-71</item>
+        <item>ЕМ-71мн</item>
+        <item>ЕМ-71мп</item>
+        <item>ЕМ-71ф</item>
+        <item>ЕМ-72</item>
+        <item>ЕМ-г61-1</item>
+        <item>ЕМ-г62-1</item>
+        <item>ЕМ-п61</item>
+        <item>ЕМ-п62</item>
+        <item>ЕМ-п71</item>
         <item>ЕП-41</item>
         <item>ЕП-42</item>
         <item>ЕП-51</item>
-        <item>ЕП-51м</item>
-        <item>ЕП-51с</item>
         <item>ЕП-61</item>
         <item>ЕП-61м</item>
         <item>ЕП-61с</item>
         <item>ЕП-62</item>
-        <item>ЕП-з51с</item>
-        <item>ЕП-п41</item>
+        <item>ЕП-71</item>
+        <item>ЕП-71мн</item>
+        <item>ЕП-71мп</item>
+        <item>ЕП-71ф</item>
+        <item>ЕП-72</item>
         <item>ЕП-п51</item>
         <item>ЕП-п61</item>
-        <item>ЕС-31</item>
-        <item>ЕС-32</item>
+        <item>ЕП-п62</item>
+        <item>ЕП-п71</item>
         <item>ЕС-41</item>
         <item>ЕС-42</item>
         <item>ЕС-51</item>
-        <item>ЕС-51м</item>
-        <item>ЕС-51с</item>
         <item>ЕС-52</item>
         <item>ЕС-61</item>
-        <item>ЕС-61м</item>
+        <item>ЕС-61м (емс)</item>
+        <item>ЕС-61м (емс)</item>
         <item>ЕС-61с</item>
-        <item>ЕС-62</item>
-        <item>ЕС-з31</item>
+        <item>ЕС-71</item>
+        <item>ЕС-71мн (емс)</item>
+        <item>ЕС-71мн (емс)</item>
+        <item>ЕС-71мп (емс)</item>
+        <item>ЕС-71мп (емс)</item>
+        <item>ЕС-71ф</item>
+        <item>ЕС-72</item>
+        <item>ЕС-г62</item>
+        <item>ЕС-г62-1</item>
         <item>ЕС-з41</item>
         <item>ЕС-з51</item>
         <item>ЕС-з51с</item>
         <item>ЕС-з61</item>
         <item>ЕС-з61с</item>
-        <item>ЕС-зп31</item>
+        <item>ЕС-з71</item>
+        <item>ЕС-з71мп</item>
         <item>ЕС-зп41</item>
         <item>ЕС-зп51</item>
         <item>ЕС-зп61</item>
-        <item>ЕС-п41</item>
-        <item>ЕС-п51</item>
-        <item>ЕС-п52</item>
-        <item>ЕС-п61</item>
-        <item>ЕС-п62</item>
-        <item>ЕТ-31</item>
-        <item>ЕТ-32</item>
+        <item>ЕС-зп71</item>
+        <item>ЕС-п51 (емс)</item>
+        <item>ЕС-п51 (емс)</item>
+        <item>ЕС-п52 (емс)</item>
+        <item>ЕС-п52 (емс)</item>
+        <item>ЕС-п71</item>
         <item>ЕТ-41</item>
         <item>ЕТ-42</item>
-        <item>ЕТ-51м</item>
-        <item>ЕТ-51с</item>
+        <item>ЕТ-51</item>
         <item>ЕТ-61</item>
         <item>ЕТ-61м</item>
         <item>ЕТ-61с</item>
-        <item>ЕТ-62</item>
-        <item>ЕТ-п41</item>
+        <item>ЕТ-71</item>
+        <item>ЕТ-71мн</item>
+        <item>ЕТ-71мп</item>
         <item>ЕТ-п51</item>
         <item>ЕТ-п61</item>
-        <item>ЕТС-51</item>
-        <item>ЕУ-61м</item>
-        <item>ЕУ-з61м</item>
-        <item>ЗА-31</item>
+        <item>ЕТ-п71</item>
+        <item>ЕУ-61м (тпу)</item>
+        <item>ЕУ-61м (тпу)</item>
+        <item>ЕУ-71</item>
+        <item>ЕУ-71мп</item>
+        <item>ЕУ-72</item>
+        <item>ЕУ-72мп</item>
+        <item>ЕУ-з61м (тпу)</item>
+        <item>ЕУ-з61м (тпу)</item>
+        <item>ЕУ-з71</item>
+        <item>ЕУ-з71мп</item>
+        <item>ЕУ-з72</item>
+        <item>ЕУ-з72мп</item>
+        <item>ЖУР-71ф</item>
+        <item>ЖУР-з71ф</item>
         <item>ЗА-41</item>
         <item>ЗА-51м</item>
         <item>ЗА-51с</item>
-        <item>ЗА-61</item>
         <item>ЗА-61м</item>
+        <item>ЗА-61мн</item>
         <item>ЗА-61с</item>
-        <item>ЗА-п41</item>
+        <item>ЗА-71</item>
+        <item>ЗА-71мп</item>
+        <item>ЗА-71ф</item>
         <item>ЗА-п51</item>
         <item>ЗА-п61</item>
-        <item>ЗВ-31</item>
-        <item>ЗВ-32</item>
+        <item>ЗА-п61-2</item>
+        <item>ЗА-п71</item>
         <item>ЗВ-41</item>
         <item>ЗВ-42</item>
         <item>ЗВ-51</item>
-        <item>ЗВ-51м</item>
-        <item>ЗВ-51с</item>
-        <item>ЗВ-61</item>
+        <item>ЗВ-61-1</item>
+        <item>ЗВ-61-2</item>
         <item>ЗВ-61м</item>
         <item>ЗВ-61с</item>
-        <item>ЗВ-з31</item>
+        <item>ЗВ-71</item>
+        <item>ЗВ-71мн</item>
+        <item>ЗВ-71мп</item>
+        <item>ЗВ-71ф</item>
         <item>ЗВ-з41</item>
         <item>ЗВ-з51</item>
-        <item>ЗВ-з51с</item>
-        <item>ЗВ-з61</item>
         <item>ЗВ-з61с</item>
+        <item>ЗВ-з71</item>
+        <item>ЗВ-з71мп</item>
         <item>ЗВ-зп51</item>
         <item>ЗВ-зп61</item>
-        <item>ЗВ-п41</item>
+        <item>ЗВ-зп71</item>
         <item>ЗВ-п61</item>
+        <item>ЗВ-п71</item>
+        <item>ЗГ-з51</item>
+        <item>ЗГ-з61</item>
+        <item>ЗГ-з71</item>
         <item>ЗДК-01</item>
-        <item>ЗКП-01</item>
-        <item>ЗМ-61м</item>
         <item>ЗМ-з61м</item>
-        <item>ЗП-31</item>
         <item>ЗП-41</item>
-        <item>ЗП-51м</item>
-        <item>ЗП-51с</item>
-        <item>ЗП-61</item>
         <item>ЗП-61м</item>
         <item>ЗП-61с</item>
-        <item>ЗП-з31</item>
-        <item>ЗП-з51с</item>
-        <item>ЗП-з61</item>
+        <item>ЗП-71</item>
+        <item>ЗП-71мн</item>
+        <item>ЗП-71мп</item>
+        <item>ЗП-71ф</item>
         <item>ЗП-з61с</item>
+        <item>ЗП-з71</item>
+        <item>ЗП-з71мп</item>
         <item>ЗП-зп41</item>
-        <item>ЗП-зп61</item>
-        <item>ЗП-п41</item>
+        <item>ЗП-зп71</item>
         <item>ЗП-п51</item>
-        <item>ЗП-п61</item>
-        <item>ЗТВ-01</item>
+        <item>ЗП-п71</item>
+        <item>ЗР-з61</item>
         <item>ЗТП-81т (тпт)</item>
         <item>ЗТП-81т (тпт)</item>
-        <item>ЗТП-91т</item>
         <item>ЗХП-41</item>
         <item>ЗХС-51</item>
-        <item>ІА-31</item>
-        <item>ІА-32</item>
-        <item>ІА-33</item>
         <item>ІА-41</item>
+        <item>ІА-42</item>
         <item>ІА-51</item>
-        <item>ІА-51м</item>
         <item>ІА-52</item>
-        <item>ІА-52с</item>
         <item>ІА-61</item>
         <item>ІА-61м</item>
         <item>ІА-62</item>
         <item>ІА-62с</item>
-        <item>ІА-з31</item>
+        <item>ІА-71</item>
+        <item>ІА-71ф</item>
+        <item>ІА-72</item>
+        <item>ІА-73</item>
         <item>ІА-з41</item>
         <item>ІА-з51</item>
-        <item>ІА-з51с</item>
         <item>ІА-з61</item>
         <item>ІА-з61с</item>
-        <item>ІВ-51м</item>
-        <item>ІВ-51с</item>
-        <item>ІК-31</item>
-        <item>ІК-32</item>
-        <item>ІК-33</item>
+        <item>ІА-з71</item>
+        <item>ІВ-71</item>
+        <item>ІВ-71мн</item>
+        <item>ІВ-71мп</item>
+        <item>ІВ-72</item>
+        <item>ІВ-з71</item>
+        <item>ІВ-з71мп</item>
         <item>ІК-41</item>
         <item>ІК-42</item>
         <item>ІК-51</item>
@@ -481,30 +665,31 @@
         <item>ІК-61м</item>
         <item>ІК-62</item>
         <item>ІК-62с</item>
-        <item>ІК-з31</item>
+        <item>ІК-71</item>
+        <item>ІК-71мн</item>
+        <item>ІК-71мп</item>
+        <item>ІК-71ф</item>
+        <item>ІК-72</item>
+        <item>ІК-72мп</item>
+        <item>ІК-73 (тк)</item>
+        <item>ІК-73</item>
         <item>ІК-з41</item>
-        <item>ІК-з51 (тк)</item>
-        <item>ІК-з51 (тк)</item>
+        <item>ІК-з51</item>
         <item>ІК-з51с</item>
         <item>ІК-з61</item>
         <item>ІК-з61с</item>
-        <item>ІО-31</item>
-        <item>ІО-32</item>
-        <item>ІО-33</item>
-        <item>ІО-34</item>
-        <item>ІО-36</item>
+        <item>ІК-з71</item>
+        <item>ІК-з71мп</item>
         <item>ІО-41</item>
         <item>ІО-42</item>
         <item>ІО-43</item>
         <item>ІО-44</item>
         <item>ІО-45</item>
         <item>ІО-51</item>
-        <item>ІО-51м</item>
         <item>ІО-52</item>
-        <item>ІО-52с</item>
         <item>ІО-53</item>
-        <item>ІО-53с</item>
         <item>ІО-54</item>
+        <item>ІО-56 ін.</item>
         <item>ІО-61</item>
         <item>ІО-61м</item>
         <item>ІО-62</item>
@@ -512,26 +697,32 @@
         <item>ІО-63</item>
         <item>ІО-63с</item>
         <item>ІО-64</item>
+        <item>ІО-64м</item>
         <item>ІО-65</item>
-        <item>ІО-з31</item>
+        <item>ІО-66</item>
+        <item>ІО-67</item>
+        <item>ІО-71</item>
+        <item>ІО-71мн</item>
+        <item>ІО-71мп</item>
+        <item>ІО-71ф</item>
+        <item>ІО-72</item>
+        <item>ІО-73</item>
+        <item>ІО-73мн</item>
+        <item>ІО-75</item>
         <item>ІО-з41</item>
         <item>ІО-з51</item>
-        <item>ІО-з51с</item>
         <item>ІО-з61</item>
-        <item>ІО-з61с</item>
-        <item>ІП-31</item>
-        <item>ІП-32</item>
+        <item>ІО-з61с (от)</item>
+        <item>ІО-з61с (от)</item>
+        <item>ІО-з71</item>
+        <item>ІО-з71мп</item>
+        <item>ІО-з71ф</item>
         <item>ІП-41</item>
         <item>ІП-42</item>
         <item>ІП-43</item>
         <item>ІП-44</item>
         <item>ІП-51</item>
-        <item>ІП-51м (асоіу)</item>
-        <item>ІП-51м (асоіу)</item>
-        <item>ІП-51м (от)</item>
-        <item>ІП-51с</item>
         <item>ІП-52</item>
-        <item>ІП-52с</item>
         <item>ІП-53</item>
         <item>ІП-54</item>
         <item>ІП-61</item>
@@ -541,65 +732,75 @@
         <item>ІП-63</item>
         <item>ІП-63с</item>
         <item>ІП-64</item>
-        <item>ІП-з31</item>
+        <item>ІП-71</item>
+        <item>ІП-71мн</item>
+        <item>ІП-72</item>
+        <item>ІП-72мп</item>
+        <item>ІП-72ф</item>
+        <item>ІП-73</item>
+        <item>ІП-73мп</item>
+        <item>ІП-74</item>
+        <item>ІП-74мн</item>
         <item>ІП-з41</item>
         <item>ІП-з51</item>
-        <item>ІП-з51с</item>
         <item>ІП-з61</item>
         <item>ІП-з61с</item>
-        <item>ІС-31</item>
-        <item>ІС-32</item>
-        <item>ІС-33</item>
+        <item>ІП-з71</item>
+        <item>ІП-з71мп</item>
+        <item>ІП-з72</item>
+        <item>ІП-з72ф</item>
         <item>ІС-41</item>
         <item>ІС-42</item>
         <item>ІС-43</item>
         <item>ІС-51</item>
-        <item>ІС-51м</item>
         <item>ІС-52</item>
-        <item>ІС-52с</item>
-        <item>ІС-53</item>
-        <item>ІС-53м</item>
         <item>ІС-61</item>
         <item>ІС-61м</item>
         <item>ІС-62</item>
         <item>ІС-62с</item>
         <item>ІС-63</item>
         <item>ІС-63м</item>
-        <item>ІС-з31</item>
+        <item>ІС-71</item>
+        <item>ІС-71мн</item>
+        <item>ІС-72</item>
+        <item>ІС-72мп</item>
+        <item>ІС-73</item>
+        <item>ІС-73мп</item>
         <item>ІС-з41</item>
         <item>ІС-з51</item>
-        <item>ІС-з51с</item>
         <item>ІС-з61</item>
         <item>ІС-з61с</item>
-        <item>ІТ-31</item>
-        <item>ІТ-32</item>
+        <item>ІС-з71</item>
+        <item>ІС-з71мп</item>
         <item>ІТ-41</item>
         <item>ІТ-42</item>
         <item>ІТ-51</item>
         <item>ІТ-52</item>
         <item>ІТ-61</item>
         <item>ІТ-62</item>
-        <item>КА-14</item>
-        <item>КА-31</item>
-        <item>КА-33</item>
-        <item>КА-34</item>
-        <item>КА-35</item>
+        <item>ІТ-71</item>
+        <item>ІТ-71ф</item>
+        <item>ІТ-72</item>
+        <item>ІТ-72ф</item>
+        <item>ІТ-73 (тк)</item>
+        <item>ІТ-73</item>
+        <item>ІТ-73мн</item>
+        <item>ІТ-74 (тк)</item>
+        <item>ІТ-74 (тк)</item>
+        <item>ІТ-74</item>
+        <item>ІТ-з71ф</item>
+        <item>ІТ-з72ф</item>
         <item>КА-41</item>
         <item>КА-43</item>
         <item>КА-43с</item>
         <item>КА-44</item>
         <item>КА-45</item>
         <item>КА-51</item>
-        <item>КА-51м</item>
         <item>КА-51с</item>
-        <item>КА-52</item>
-        <item>КА-52м</item>
         <item>КА-52с</item>
         <item>КА-53</item>
-        <item>КА-53м</item>
         <item>КА-53с</item>
         <item>КА-54</item>
-        <item>КА-54м</item>
         <item>КА-55</item>
         <item>КА-61</item>
         <item>КА-61м</item>
@@ -608,30 +809,36 @@
         <item>КА-62м</item>
         <item>КА-62с</item>
         <item>КА-63</item>
-        <item>КА-63м</item>
         <item>КА-64</item>
         <item>КА-64м</item>
         <item>КА-65</item>
         <item>КА-65м</item>
         <item>КА-66</item>
+        <item>КА-71</item>
+        <item>КА-71мн</item>
+        <item>КА-71мп</item>
+        <item>КА-71ф</item>
+        <item>КА-72</item>
+        <item>КА-72мн</item>
+        <item>КА-72мп</item>
+        <item>КА-72ф</item>
+        <item>КА-73</item>
+        <item>КА-73мн</item>
+        <item>КА-73мп</item>
+        <item>КА-74</item>
+        <item>КА-74мн</item>
+        <item>КА-74мп</item>
+        <item>КА-75</item>
+        <item>КА-76</item>
         <item>КА-з41м</item>
-        <item>КВ-31</item>
-        <item>КВ-32</item>
-        <item>КВ-33</item>
         <item>КВ-41</item>
         <item>КВ-42</item>
         <item>КВ-43</item>
         <item>КВ-51</item>
-        <item>КВ-51м</item>
-        <item>КВ-51с</item>
         <item>КВ-52</item>
-        <item>КВ-52с</item>
         <item>КВ-53</item>
-        <item>КВ-53м</item>
-        <item>КВ-53с</item>
         <item>КВ-61</item>
-        <item>КВ-61м (спскс)</item>
-        <item>КВ-61м (спскс)</item>
+        <item>КВ-61м</item>
         <item>КВ-61с</item>
         <item>КВ-62</item>
         <item>КВ-62м</item>
@@ -639,41 +846,48 @@
         <item>КВ-63</item>
         <item>КВ-63м</item>
         <item>КВ-63с</item>
-        <item>КМ-31</item>
-        <item>КМ-32</item>
-        <item>КМ-33</item>
+        <item>КВ-71</item>
+        <item>КВ-71мн</item>
+        <item>КВ-71мп</item>
+        <item>КВ-71ф</item>
+        <item>КВ-72</item>
+        <item>КВ-72мн</item>
+        <item>КВ-72мп</item>
+        <item>КВ-73</item>
+        <item>КВ-73мн</item>
+        <item>КВ-73мп</item>
+        <item>КВ-з71ф</item>
         <item>КМ-41</item>
         <item>КМ-42</item>
-        <item>КМ-43</item>
         <item>КМ-51</item>
-        <item>КМ-51м</item>
-        <item>КМ-51с</item>
         <item>КМ-52</item>
-        <item>КМ-53</item>
         <item>КМ-61</item>
         <item>КМ-61м</item>
-        <item>КМ-61с</item>
+        <item>КМ-61с (пма)</item>
+        <item>КМ-61с (пма)</item>
         <item>КМ-62</item>
         <item>КМ-63</item>
-        <item>КП-31</item>
-        <item>КП-32</item>
+        <item>КМ-71</item>
+        <item>КМ-71мн</item>
+        <item>КМ-71мп</item>
+        <item>КМ-71ф</item>
+        <item>КМ-72</item>
+        <item>КМ-72мп</item>
+        <item>КМ-73</item>
         <item>КП-41</item>
         <item>КП-42</item>
         <item>КП-51</item>
-        <item>КП-51м</item>
-        <item>КП-51с</item>
         <item>КП-52</item>
-        <item>КП-52м</item>
         <item>КП-61</item>
         <item>КП-61м</item>
         <item>КП-61с</item>
         <item>КП-62</item>
-        <item>ЛА-31 (ахв)</item>
-        <item>ЛА-31 (тппам)</item>
-        <item>ЛА-32 (ахв)</item>
-        <item>ЛА-32 (тппам)</item>
-        <item>ЛА-33</item>
-        <item>ЛА-34</item>
+        <item>КП-71</item>
+        <item>КП-71мн</item>
+        <item>КП-71мп</item>
+        <item>КП-71ф</item>
+        <item>КП-72</item>
+        <item>КП-73</item>
         <item>ЛА-41 (ахв)</item>
         <item>ЛА-41 (тппам)</item>
         <item>ЛА-42 (ахв)</item>
@@ -682,7 +896,6 @@
         <item>ЛА-51 (ахв)</item>
         <item>ЛА-51 (тппам)</item>
         <item>ЛА-51м</item>
-        <item>ЛА-51с</item>
         <item>ЛА-52 (ахв)</item>
         <item>ЛА-52 (тппам)</item>
         <item>ЛА-53</item>
@@ -691,262 +904,299 @@
         <item>ЛА-61м (ахв)</item>
         <item>ЛА-61м (тппам)</item>
         <item>ЛА-61с (ахв)</item>
-        <item>ЛА-61с (тппам)</item>
+        <item>ЛА-61с (ахв)</item>
         <item>ЛА-62 (ахв)</item>
         <item>ЛА-62 (тппам)</item>
         <item>ЛА-63</item>
-        <item>ЛА-з31 (ахв)</item>
-        <item>ЛА-з31 (тппам)</item>
+        <item>ЛА-71</item>
+        <item>ЛА-71мн</item>
+        <item>ЛА-71мп (ахв)</item>
+        <item>ЛА-71мп (тппам)</item>
+        <item>ЛА-71ф</item>
+        <item>ЛА-72</item>
+        <item>ЛА-72мп</item>
         <item>ЛА-з41 (ахв)</item>
         <item>ЛА-з41 (тппам)</item>
         <item>ЛА-з51</item>
-        <item>ЛА-з51с</item>
-        <item>ЛА-з61 (ахв)</item>
-        <item>ЛА-з61 (тппам)</item>
+        <item>ЛА-з61</item>
         <item>ЛА-з61м</item>
         <item>ЛА-з61с (ахв)</item>
         <item>ЛА-з61с (тппам)</item>
-        <item>ЛБ-31</item>
+        <item>ЛА-з71</item>
+        <item>ЛА-з71</item>
+        <item>ЛА-з71мп (ахв)</item>
+        <item>ЛА-з71мп (тппам)</item>
+        <item>ЛА-зп61</item>
+        <item>ЛА-зп71</item>
+        <item>ЛА-п71 (ахв)</item>
+        <item>ЛА-п71 (тппам)</item>
+        <item>ЛА-п72</item>
+        <item>ЛА-п73</item>
         <item>ЛБ-41</item>
         <item>ЛБ-51</item>
-        <item>ЛБ-51м</item>
-        <item>ЛБ-51с</item>
         <item>ЛБ-61м</item>
         <item>ЛБ-61с</item>
-        <item>ЛЕ-31</item>
+        <item>ЛБ-71</item>
+        <item>ЛБ-71мн</item>
+        <item>ЛБ-71мп</item>
+        <item>ЛБ-п71</item>
         <item>ЛЕ-41</item>
         <item>ЛЕ-42</item>
         <item>ЛЕ-51</item>
-        <item>ЛЕ-51м</item>
-        <item>ЛЕ-51с</item>
         <item>ЛЕ-61-1</item>
         <item>ЛЕ-61-2</item>
         <item>ЛЕ-61м</item>
         <item>ЛЕ-61с</item>
-        <item>ЛЕ-з61</item>
-        <item>ЛМ-31</item>
+        <item>ЛЕ-71</item>
+        <item>ЛЕ-71мн</item>
+        <item>ЛЕ-71мп</item>
+        <item>ЛЕ-71ф</item>
+        <item>ЛЕ-з71</item>
         <item>ЛМ-41</item>
-        <item>ЛН-31 (махнв)</item>
-        <item>ЛН-31 (тппнм)</item>
         <item>ЛН-41 (махнв)</item>
         <item>ЛН-41 (тппнм)</item>
         <item>ЛН-51 (махнв)</item>
         <item>ЛН-51 (тппнм)</item>
-        <item>ЛН-51м</item>
         <item>ЛН-51с</item>
         <item>ЛН-61</item>
         <item>ЛН-61-1</item>
         <item>ЛН-61-2</item>
-        <item>ЛН-61м (тппнм)</item>
         <item>ЛН-61м (махнв)</item>
-        <item>ЛН-61с (тппнм)</item>
-        <item>ЛН-61с (махнв)</item>
-        <item>ЛН-з51</item>
-        <item>ЛП-31</item>
+        <item>ЛН-61м (тппнм)</item>
+        <item>ЛН-61с</item>
+        <item>ЛН-71</item>
+        <item>ЛН-71мн</item>
+        <item>ЛН-71мп (махнв)</item>
+        <item>ЛН-71мп (тппнм)</item>
+        <item>ЛН-71ф</item>
+        <item>ЛН-п71</item>
         <item>ЛП-41</item>
         <item>ЛП-51-1</item>
         <item>ЛП-51-2</item>
-        <item>ЛП-51с</item>
-        <item>ЛП-61 -1</item>
+        <item>ЛП-61-1</item>
         <item>ЛП-61-2</item>
         <item>ЛП-61с</item>
-        <item>ЛС-31</item>
+        <item>ЛП-71</item>
+        <item>ЛП-71мн</item>
+        <item>ЛП-71мп</item>
+        <item>ЛП-72</item>
         <item>ЛС-41</item>
-        <item>ЛС-51м</item>
         <item>ЛС-61м</item>
-        <item>ЛУ-31</item>
         <item>ЛУ-41</item>
         <item>ЛУ-42</item>
-        <item>ЛУ-51м</item>
-        <item>ЛУ-51с</item>
         <item>ЛУ-61м</item>
         <item>ЛУ-61с</item>
-        <item>ЛФ-31</item>
+        <item>ЛУ-71</item>
+        <item>ЛУ-71мн</item>
+        <item>ЛУ-71мп</item>
+        <item>ЛУ-71ф</item>
+        <item>ЛУ-з71</item>
+        <item>ЛУ-з71мп</item>
         <item>ЛФ-41</item>
         <item>ЛФ-51</item>
         <item>ЛФ-61</item>
         <item>ЛФ-61м</item>
-        <item>ЛФ-61с</item>
+        <item>ЛФ-71мп</item>
+        <item>ЛФ-71ф</item>
+        <item>ЛФ-п71</item>
         <item>ЛХ-з51с</item>
-        <item>ЛЦ-31</item>
+        <item>ЛХ-з71</item>
+        <item>ЛХ-з71мн</item>
+        <item>ЛХ-з71мп</item>
         <item>ЛЦ-41</item>
         <item>ЛЦ-51</item>
-        <item>ЛЦ-51м</item>
-        <item>ЛЦ-51с</item>
         <item>ЛЦ-61м</item>
-        <item>ЛЦ-61с</item>
-        <item>ЛЦ-з31</item>
+        <item>ЛЦ-61с (етрп)</item>
+        <item>ЛЦ-61с (етрп)</item>
+        <item>ЛЦ-71</item>
+        <item>ЛЦ-71мн</item>
+        <item>ЛЦ-71мп</item>
+        <item>ЛЦ-71ф</item>
         <item>ЛЦ-з41</item>
         <item>ЛЦ-з51с</item>
         <item>ЛЦ-з61</item>
         <item>ЛЦ-з61с</item>
-        <item>МА-31</item>
-        <item>МА-32</item>
+        <item>ЛЦ-з71</item>
+        <item>ЛЦ-з71мп</item>
+        <item>ЛЦ-зп71</item>
+        <item>ЛЦ-п71</item>
         <item>МА-41</item>
         <item>МА-42</item>
         <item>МА-51</item>
-        <item>МА-51м</item>
         <item>МА-51с</item>
-        <item>МА-61</item>
+        <item>МА-61-1</item>
+        <item>МА-61-2</item>
         <item>МА-61м</item>
         <item>МА-61с</item>
-        <item>МА-62</item>
         <item>МА-62м</item>
-        <item>МВ-31 (квiм)</item>
-        <item>МВ-31 (р)</item>
-        <item>МВ-32</item>
+        <item>МА-71</item>
+        <item>МА-71мп</item>
+        <item>МА-72</item>
+        <item>МА-72мп</item>
         <item>МВ-41 (квiм)</item>
         <item>МВ-41 (р)</item>
         <item>МВ-42</item>
         <item>МВ-51 (квiм)</item>
         <item>МВ-51 (р)</item>
-        <item>МВ-51м (квiм)</item>
-        <item>МВ-51м (р)</item>
-        <item>МВ-51с</item>
-        <item>МВ-61 (квiм)</item>
-        <item>МВ-61 (р)</item>
+        <item>МВ-61</item>
         <item>МВ-61м (квiм)</item>
         <item>МВ-61м (р)</item>
-        <item>МВ-61с (квiм)</item>
-        <item>МВ-61с (р)</item>
-        <item>МД-31</item>
-        <item>МД-32</item>
+        <item>МВ-61с</item>
+        <item>МВ-71</item>
+        <item>МВ-71</item>
+        <item>МВ-71мн (квiм)</item>
+        <item>МВ-71мп (квiм)</item>
+        <item>МВ-71мп (р)</item>
+        <item>МВ-71ф</item>
+        <item>МВ-зп71</item>
+        <item>МВ-п71</item>
         <item>МД-41</item>
         <item>МД-51</item>
-        <item>МД-51м</item>
-        <item>МД-51с</item>
-        <item>МД-61</item>
         <item>МД-61м</item>
         <item>МД-61с</item>
         <item>МД-62м</item>
         <item>МД-62с</item>
-        <item>МД-з31</item>
+        <item>МД-71</item>
+        <item>МД-71мн</item>
+        <item>МД-71мп</item>
+        <item>МД-72мн</item>
+        <item>МД-72мп</item>
+        <item>МД-73мп</item>
         <item>МД-з41</item>
-        <item>МД-з51с</item>
         <item>МД-з61</item>
         <item>МД-з61с</item>
-        <item>МД-п41</item>
+        <item>МД-з71</item>
+        <item>МД-з71мп</item>
         <item>МД-п51</item>
         <item>МД-п61</item>
-        <item>МІ-31</item>
+        <item>МД-п71 (мпм)</item>
+        <item>МД-п71 (мпм)</item>
         <item>МІ-41</item>
         <item>МІ-51</item>
-        <item>МІ-51м</item>
-        <item>МІ-51с</item>
-        <item>МІ-61</item>
+        <item>МІ-61-1</item>
+        <item>МІ-61-2</item>
         <item>МІ-61м</item>
         <item>МІ-61с</item>
         <item>МІ-62м</item>
-        <item>МІ-п41</item>
+        <item>МІ-71</item>
+        <item>МІ-71мн</item>
+        <item>МІ-71мп</item>
+        <item>МІ-71ф</item>
+        <item>МІ-72мп</item>
         <item>МІ-п51</item>
         <item>МІ-п61</item>
-        <item>МЛ-31</item>
-        <item>МЛ-32</item>
+        <item>МІ-п71 (ітм)</item>
+        <item>МІ-п71</item>
         <item>МЛ-41</item>
         <item>МЛ-42</item>
         <item>МЛ-51</item>
-        <item>МЛ-51м</item>
         <item>МЛ-51с</item>
-        <item>МЛ-61</item>
         <item>МЛ-61м</item>
         <item>МЛ-61с</item>
-        <item>ММ-31</item>
+        <item>МЛ-71</item>
+        <item>МЛ-71мн</item>
+        <item>МЛ-71мп</item>
         <item>ММ-41</item>
         <item>ММ-61м</item>
-        <item>МП-31</item>
-        <item>МП-32</item>
+        <item>ММ-71</item>
+        <item>ММ-71мн</item>
+        <item>ММ-71мп</item>
         <item>МП-41</item>
         <item>МП-42</item>
         <item>МП-51</item>
-        <item>МП-51м</item>
-        <item>МП-51с</item>
         <item>МП-61</item>
         <item>МП-61м</item>
         <item>МП-61с</item>
-        <item>МП-62</item>
+        <item>МП-62-1</item>
+        <item>МП-62-2 (дммiом)</item>
+        <item>МП-62-2 (лткмм)</item>
         <item>МП-62м</item>
-        <item>МТ-31</item>
-        <item>МТ-32</item>
-        <item>МТ-33</item>
+        <item>МП-71</item>
+        <item>МП-71мн</item>
+        <item>МП-71мп</item>
+        <item>МП-71ф</item>
+        <item>МП-72</item>
+        <item>МП-72мп</item>
         <item>МТ-41</item>
         <item>МТ-42</item>
         <item>МТ-51</item>
-        <item>МТ-51м</item>
-        <item>МТ-51с</item>
         <item>МТ-61</item>
         <item>МТ-61м</item>
         <item>МТ-61с</item>
-        <item>МТ-62</item>
         <item>МТ-62м</item>
-        <item>МТ-з31</item>
+        <item>МТ-62с</item>
+        <item>МТ-71</item>
+        <item>МТ-71мн</item>
+        <item>МТ-71мп</item>
+        <item>МТ-72мп</item>
         <item>МТ-з41</item>
         <item>МТ-з51</item>
         <item>МТ-з51с</item>
-        <item>МТ-з61</item>
         <item>МТ-з61с</item>
-        <item>МТ-з62</item>
-        <item>МТ-п41</item>
+        <item>МТ-з71</item>
+        <item>МТ-з71мп</item>
         <item>МТ-п51</item>
         <item>МТ-п61</item>
-        <item>ОА-31</item>
-        <item>ОА-32</item>
+        <item>МТ-п71</item>
+        <item>МТ-п72</item>
         <item>ОА-41</item>
         <item>ОА-42</item>
         <item>ОА-51</item>
-        <item>ОА-51м</item>
-        <item>ОА-51с</item>
-        <item>ОА-61</item>
         <item>ОА-61м</item>
         <item>ОА-61с</item>
-        <item>ОА-з31 (ауек)</item>
-        <item>ОА-з31 (гбтагт)</item>
+        <item>ОА-62м</item>
+        <item>ОА-71</item>
+        <item>ОА-71мн</item>
+        <item>ОА-71мп</item>
+        <item>ОА-71ф</item>
+        <item>ОА-г61-1</item>
+        <item>ОА-г61-2</item>
         <item>ОА-з41 (ауек)</item>
         <item>ОА-з41 (гбтагт)</item>
-        <item>ОА-з41 (гбтагт)</item>
-        <item>ОА-з41/2</item>
-        <item>ОА-з51 (ауек)</item>
-        <item>ОА-з51 (ауек)</item>
-        <item>ОА-з51с</item>
+        <item>ОА-з41 (тпт та енз)</item>
+        <item>ОА-з51</item>
         <item>ОА-з61</item>
         <item>ОА-з61с</item>
-        <item>ОА-зп61</item>
-        <item>ОА-п61</item>
-        <item>ОБ-31</item>
+        <item>ОА-з71</item>
+        <item>ОА-з71мп</item>
+        <item>ОА-зп71</item>
+        <item>ОА-п71</item>
         <item>ОБ-41</item>
         <item>ОБ-51</item>
-        <item>ОБ-51м</item>
-        <item>ОБ-51с</item>
-        <item>ОБ-61</item>
         <item>ОБ-61м</item>
         <item>ОБ-61с</item>
+        <item>ОБ-71</item>
+        <item>ОБ-71мн</item>
+        <item>ОБ-71мп</item>
+        <item>ОБ-71ф</item>
+        <item>ОБ-з41</item>
         <item>ОБ-з51</item>
-        <item>ОБ-з51с</item>
         <item>ОБ-з61</item>
         <item>ОБ-з61с</item>
-        <item>ОЕ-31</item>
-        <item>ОЕ-32</item>
+        <item>ОБ-з71</item>
+        <item>ОБ-з71мп</item>
         <item>ОЕ-41</item>
         <item>ОЕ-42</item>
         <item>ОЕ-51</item>
-        <item>ОЕ-51м</item>
-        <item>ОЕ-51с</item>
-        <item>ОЕ-52м</item>
-        <item>ОЕ-61</item>
         <item>ОЕ-61м</item>
         <item>ОЕ-61с</item>
-        <item>ОЕ-62</item>
-        <item>ОЕ-з31</item>
+        <item>ОЕ-71</item>
+        <item>ОЕ-71мн</item>
+        <item>ОЕ-71мп</item>
+        <item>ОЕ-71ф</item>
+        <item>ОЕ-72мп</item>
+        <item>ОЕ-г61-1</item>
+        <item>ОЕ-г61-2</item>
         <item>ОЕ-з41</item>
         <item>ОЕ-з51</item>
-        <item>ОЕ-з51с</item>
         <item>ОЕ-з61</item>
         <item>ОЕ-з61с</item>
+        <item>ОЕ-з71</item>
+        <item>ОЕ-з71мп</item>
         <item>ОЕ-зп61</item>
-        <item>ОЕ-п41</item>
+        <item>ОЕ-зп71</item>
         <item>ОЕ-п51</item>
-        <item>ОЕ-п61</item>
-        <item>ОЗ-31</item>
-        <item>ОЗ-32</item>
+        <item>ОЕ-п71</item>
         <item>ОЗ-41</item>
         <item>ОЗ-42</item>
         <item>ОЗ-51</item>
@@ -954,121 +1204,133 @@
         <item>ОЗ-51с</item>
         <item>ОЗ-52</item>
         <item>ОЗ-52м</item>
-        <item>ОЗ-61</item>
         <item>ОЗ-61м</item>
         <item>ОЗ-61с</item>
-        <item>ОЗ-62</item>
-        <item>ОЗ-з31</item>
+        <item>ОЗ-71</item>
+        <item>ОЗ-71мн</item>
+        <item>ОЗ-71мп</item>
+        <item>ОЗ-71ф</item>
         <item>ОЗ-з41</item>
-        <item>ОЗ-з41с</item>
-        <item>ОЗ-з51 (iе)</item>
-        <item>ОЗ-з51 (iе)</item>
-        <item>ОЗ-з61 (iе)</item>
-        <item>ОЗ-з61 (iе)</item>
-        <item>ОЗ-з61с</item>
-        <item>ОМ-31 (емоев)</item>
-        <item>ОМ-31 (мататі)</item>
-        <item>ОМ-32 (емоев)</item>
-        <item>ОМ-32 (мататі)</item>
+        <item>ОЗ-з51</item>
+        <item>ОЗ-з61</item>
+        <item>ОЗ-з61с (iе)</item>
+        <item>ОЗ-з61с (iе)</item>
+        <item>ОЗ-з71</item>
+        <item>ОЗ-з71мп</item>
+        <item>ОЗ-з71ф</item>
+        <item>ОЗ-зп71</item>
+        <item>ОЗ-п71</item>
         <item>ОМ-41 (емоев)</item>
         <item>ОМ-41 (мататі)</item>
         <item>ОМ-42 (емоев)</item>
         <item>ОМ-42 (мататі)</item>
         <item>ОМ-51 (емоев)</item>
         <item>ОМ-51 (мататі)</item>
-        <item>ОМ-51м (емоев)</item>
-        <item>ОМ-51м (мататі)</item>
-        <item>ОМ-51с (емоев)</item>
-        <item>ОМ-51с (мататі)</item>
+        <item>ОМ-51м</item>
         <item>ОМ-52</item>
-        <item>ОМ-61 (емоев)</item>
         <item>ОМ-61 (мататі)</item>
         <item>ОМ-61м (емоев)</item>
         <item>ОМ-61м (мататі)</item>
         <item>ОМ-61с (емоев)</item>
+        <item>ОМ-61с (емоев)</item>
         <item>ОМ-61с (мататі)</item>
-        <item>ОМ-62</item>
-        <item>ОМ-62м</item>
-        <item>ОМ-62с</item>
-        <item>ОМ-з31</item>
+        <item>ОМ-71</item>
+        <item>ОМ-71</item>
+        <item>ОМ-71мн (емоев)</item>
+        <item>ОМ-71мн (мататі)</item>
+        <item>ОМ-71мп (емоев)</item>
+        <item>ОМ-71мп (мататі)</item>
+        <item>ОМ-71ф (емоев)</item>
+        <item>ОМ-71ф (мататі)</item>
+        <item>ОМ-72</item>
+        <item>ОМ-72мн</item>
+        <item>ОМ-72мп</item>
         <item>ОМ-з41</item>
         <item>ОМ-з51</item>
-        <item>ОМ-з51с</item>
         <item>ОМ-з61</item>
+        <item>ОМ-з61мн</item>
         <item>ОМ-з61с</item>
-        <item>ОМ-п61</item>
+        <item>ОМ-з71</item>
+        <item>ОМ-з71мп</item>
+        <item>ОМ-зп71</item>
         <item>ОМ-п62</item>
-        <item>ОН-31</item>
-        <item>ОН-32</item>
+        <item>ОМ-п71</item>
+        <item>ОМ-п72</item>
         <item>ОН-41</item>
         <item>ОН-42</item>
         <item>ОН-51</item>
-        <item>ОН-51м</item>
-        <item>ОН-51с</item>
         <item>ОН-52</item>
-        <item>ОН-52м</item>
-        <item>ОН-61</item>
         <item>ОН-61м</item>
         <item>ОН-61с</item>
-        <item>ОН-62</item>
         <item>ОН-62м</item>
-        <item>ОН-з31</item>
+        <item>ОН-71</item>
+        <item>ОН-71мн</item>
+        <item>ОН-71мп</item>
+        <item>ОН-71ф</item>
+        <item>ОН-г61-1</item>
+        <item>ОН-г61-2</item>
         <item>ОН-з41</item>
         <item>ОН-з51</item>
-        <item>ОН-з51с</item>
         <item>ОН-з61</item>
+        <item>ОН-з61м</item>
         <item>ОН-з61с</item>
-        <item>ОС-31</item>
+        <item>ОН-з71</item>
+        <item>ОН-з71мп</item>
+        <item>ОН-зп71</item>
+        <item>ОН-п71</item>
         <item>ОС-41</item>
         <item>ОС-51</item>
-        <item>ОС-51м</item>
-        <item>ОС-51с</item>
         <item>ОС-61</item>
         <item>ОС-61м</item>
         <item>ОС-61с</item>
+        <item>ОС-71</item>
+        <item>ОС-71мн</item>
+        <item>ОС-71мп</item>
+        <item>ОС-71ф</item>
         <item>ОС-з51</item>
-        <item>ОС-з51с</item>
         <item>ОС-з61</item>
         <item>ОС-з61с</item>
-        <item>ОС-п41</item>
+        <item>ОС-з71</item>
+        <item>ОС-з71мп</item>
+        <item>ОС-зп61</item>
+        <item>ОС-зп71</item>
         <item>ОС-п51</item>
-        <item>ОС-п61</item>
-        <item>ОТ-31</item>
+        <item>ОС-п71</item>
         <item>ОТ-41</item>
         <item>ОТ-51</item>
         <item>ОТ-51м</item>
         <item>ОТ-51с</item>
-        <item>ОТ-61</item>
         <item>ОТ-61м</item>
         <item>ОТ-61с</item>
-        <item>ОТ-з31</item>
+        <item>ОТ-71</item>
+        <item>ОТ-71мн</item>
+        <item>ОТ-71мп</item>
+        <item>ОТ-71ф</item>
+        <item>ОТ-г61-1</item>
+        <item>ОТ-г61-2</item>
         <item>ОТ-з51</item>
-        <item>ОТ-з51м</item>
         <item>ОТ-з51с</item>
         <item>ОТ-з61</item>
         <item>ОТ-з61с</item>
+        <item>ОТ-з71</item>
+        <item>ОТ-з71мп</item>
         <item>ОТ-зп61</item>
-        <item>ОТ-п13</item>
-        <item>ОТ-п61</item>
-        <item>ОФ-31</item>
-        <item>ОФ-32</item>
+        <item>ОТ-зп71</item>
+        <item>ОТ-п71</item>
         <item>ОФ-41</item>
         <item>ОФ-42</item>
         <item>ОФ-51</item>
-        <item>ОФ-51м</item>
-        <item>ОФ-51с</item>
         <item>ОФ-61</item>
         <item>ОФ-61м</item>
         <item>ОФ-61с</item>
-        <item>ОФ-62</item>
-        <item>ПБ-31</item>
-        <item>ПБ-32</item>
+        <item>ОФ-71</item>
+        <item>ОФ-71мн</item>
+        <item>ОФ-71мп</item>
+        <item>ОФ-71ф</item>
         <item>ПБ-41</item>
         <item>ПБ-42</item>
         <item>ПБ-51</item>
-        <item>ПБ-51м</item>
         <item>ПБ-51с</item>
-        <item>ПБ-52м</item>
         <item>ПБ-52с</item>
         <item>ПБ-61</item>
         <item>ПБ-61м</item>
@@ -1076,254 +1338,318 @@
         <item>ПБ-62</item>
         <item>ПБ-62м</item>
         <item>ПБ-62с</item>
-        <item>ПБ-з31</item>
+        <item>ПБ-71</item>
+        <item>ПБ-71мн</item>
+        <item>ПБ-71мп</item>
+        <item>ПБ-71ф</item>
+        <item>ПБ-72</item>
+        <item>ПБ-72мн</item>
+        <item>ПБ-72мп</item>
+        <item>ПБ-72ф</item>
         <item>ПБ-з41</item>
         <item>ПБ-з51</item>
         <item>ПБ-з51с</item>
         <item>ПБ-з61</item>
         <item>ПБ-з61с</item>
-        <item>ПГ-31</item>
-        <item>ПГ-32</item>
+        <item>ПБ-з71мп</item>
+        <item>ПБ-з72</item>
+        <item>ПБ-п71 (вп)</item>
+        <item>ПБ-п71</item>
+        <item>ПБ-п72</item>
         <item>ПГ-41</item>
         <item>ПГ-51</item>
-        <item>ПГ-51м</item>
-        <item>ПГ-51с</item>
         <item>ПГ-61</item>
         <item>ПГ-61м</item>
         <item>ПГ-61с</item>
-        <item>ПГП-61</item>
-        <item>ПІ-31</item>
+        <item>ПГ-71</item>
+        <item>ПГ-71мн</item>
+        <item>ПГ-71мп</item>
+        <item>ПГ-71ф</item>
+        <item>ПГ-зп71</item>
+        <item>ПГ-п61</item>
+        <item>ПГ-п71 (псон)</item>
+        <item>ПГ-п71</item>
         <item>ПІ-41</item>
-        <item>ПІ-51-1</item>
+        <item>ПІ-51</item>
         <item>ПІ-51-2</item>
         <item>ПІ-51м</item>
         <item>ПІ-51с</item>
-        <item>ПІ-61</item>
         <item>ПІ-61м</item>
         <item>ПІ-61с</item>
-        <item>ПІ-з31</item>
+        <item>ПІ-71</item>
+        <item>ПІ-71мн</item>
+        <item>ПІ-71мп</item>
         <item>ПІ-з41</item>
+        <item>ПІ-з51 (пб)</item>
+        <item>ПІ-з51 (пб)</item>
         <item>ПІ-з61</item>
         <item>ПІ-з61с</item>
-        <item>ПК-31</item>
-        <item>ПК-32</item>
+        <item>ПІ-з71</item>
+        <item>ПІ-з71мп</item>
+        <item>ПІ-п71</item>
         <item>ПК-41</item>
         <item>ПК-42</item>
         <item>ПК-51</item>
-        <item>ПК-51м</item>
-        <item>ПК-51с</item>
         <item>ПК-61</item>
         <item>ПК-61м</item>
         <item>ПК-61с</item>
-        <item>ПМ-31</item>
+        <item>ПК-71</item>
+        <item>ПК-71мн</item>
+        <item>ПК-71мп</item>
+        <item>ПК-71ф</item>
         <item>ПМ-41</item>
         <item>ПМ-51м</item>
         <item>ПМ-51с</item>
         <item>ПМ-61</item>
         <item>ПМ-61м</item>
-        <item>ПМ-61с</item>
+        <item>ПМ-61с (пб)</item>
+        <item>ПМ-61с (пб)</item>
+        <item>ПМ-71</item>
+        <item>ПМ-71мн</item>
+        <item>ПМ-71мп</item>
+        <item>ПМ-71ф</item>
+        <item>ПМ-з41</item>
+        <item>ПМ-з51 (пб)</item>
+        <item>ПМ-з51 (пб)</item>
         <item>ПМ-з51с</item>
         <item>ПМ-з61</item>
         <item>ПМ-з61с</item>
-        <item>ПН-31</item>
+        <item>ПМ-з71мп</item>
         <item>ПН-41</item>
-        <item>ПН-51м</item>
-        <item>ПН-51с</item>
-        <item>ПН-61</item>
+        <item>ПН-61-1</item>
+        <item>ПН-61-3</item>
+        <item>ПН-61-4</item>
         <item>ПН-61м</item>
         <item>ПН-61с</item>
-        <item>ПН-з31</item>
+        <item>ПН-71</item>
+        <item>ПН-71мн</item>
+        <item>ПН-71мп</item>
+        <item>ПН-71ф</item>
         <item>ПН-з41</item>
         <item>ПН-з51</item>
-        <item>ПН-з51с</item>
         <item>ПН-з61</item>
         <item>ПН-з61с</item>
-        <item>ПО-31</item>
-        <item>ПО-32</item>
+        <item>ПН-з71</item>
+        <item>ПН-з71мн</item>
+        <item>ПН-з71мп</item>
+        <item>ПН-зп71</item>
+        <item>ПН-п71</item>
         <item>ПО-41</item>
         <item>ПО-42</item>
-        <item>ПО-51c</item>
-        <item>ПО-51м</item>
-        <item>ПО-52м</item>
-        <item>ПО-52с</item>
-        <item>ПО-61</item>
         <item>ПО-61м</item>
         <item>ПО-61с</item>
-        <item>ПО-62</item>
         <item>ПО-62м</item>
         <item>ПО-62с</item>
-        <item>РА-31</item>
-        <item>РА-32</item>
+        <item>ПО-71</item>
+        <item>ПО-71мн</item>
+        <item>ПО-71мп</item>
+        <item>ПО-71ф</item>
+        <item>ПО-72</item>
+        <item>ПО-72мн</item>
+        <item>ПО-72мп</item>
+        <item>ПО-72ф</item>
+        <item>ПО-п71</item>
+        <item>ПО-п72</item>
+        <item>ПР-71ф</item>
+        <item>ПС-71ф</item>
+        <item>ПУА-71ф</item>
+        <item>ПУА-з71ф</item>
         <item>РА-41</item>
         <item>РА-42</item>
-        <item>РА-51м</item>
-        <item>РА-51с</item>
         <item>РА-61м</item>
         <item>РА-61с</item>
+        <item>РА-71</item>
+        <item>РА-71мн</item>
+        <item>РА-71мп</item>
+        <item>РА-71ф</item>
         <item>РА-г61-1</item>
         <item>РА-г61-2</item>
-        <item>РБ-31</item>
+        <item>РА-з71</item>
+        <item>РА-з71мп</item>
+        <item>РА-п71</item>
         <item>РБ-41</item>
-        <item>РБ-51м</item>
-        <item>РБ-51с</item>
-        <item>РВ-31</item>
-        <item>РВ-32</item>
         <item>РВ-41</item>
         <item>РВ-42</item>
-        <item>РВ-51м</item>
-        <item>РВ-51с</item>
-        <item>РВ-з31</item>
         <item>РВ-з41</item>
-        <item>РВ-з51с</item>
-        <item>РЗ-31</item>
-        <item>РЗ-32</item>
-        <item>РЗ-33</item>
         <item>РЗ-41</item>
         <item>РЗ-42</item>
         <item>РЗ-43</item>
         <item>РЗ-51</item>
-        <item>РЗ-51м</item>
         <item>РЗ-61</item>
         <item>РЗ-61м</item>
-        <item>РЗ-61с</item>
         <item>РЗ-62</item>
-        <item>РІ-31</item>
+        <item>РЗ-71</item>
+        <item>РЗ-71мп</item>
+        <item>РЗ-72</item>
+        <item>РЗ-з71</item>
+        <item>РЗ-з71мп</item>
         <item>РІ-41</item>
-        <item>РІ-51м</item>
-        <item>РІ-51с</item>
         <item>РІ-61м</item>
         <item>РІ-61с</item>
         <item>РІ-62м</item>
+        <item>РІ-71</item>
+        <item>РІ-71мн</item>
+        <item>РІ-71мп</item>
+        <item>РІ-71ф</item>
+        <item>РІ-72мп</item>
         <item>РІ-г61-1</item>
         <item>РІ-г61-2</item>
+        <item>РІ-з51</item>
         <item>РІ-з61</item>
         <item>РІ-з61с</item>
+        <item>РІ-з71</item>
+        <item>РІ-з71мп</item>
+        <item>РІ-п71</item>
         <item>РК-51</item>
-        <item>РП-31</item>
         <item>РП-41</item>
-        <item>РП-51м</item>
         <item>РП-61м</item>
-        <item>РП-61с</item>
-        <item>РС-31</item>
-        <item>РС-32</item>
+        <item>РП-71мп</item>
+        <item>РП-71ф</item>
+        <item>РП-зп61</item>
         <item>РС-41</item>
         <item>РС-42</item>
-        <item>РС-51м</item>
-        <item>РС-51с</item>
         <item>РС-61м</item>
         <item>РС-61с</item>
+        <item>РС-71</item>
+        <item>РС-71мн</item>
+        <item>РС-71мп</item>
+        <item>РС-71ф</item>
         <item>РС-г61-1</item>
         <item>РС-г61-2</item>
-        <item>РТ-31</item>
-        <item>РТ-32</item>
+        <item>РС-з71</item>
+        <item>РС-з71мп</item>
+        <item>РС-п71</item>
         <item>РТ-41</item>
         <item>РТ-42</item>
         <item>РТ-51-1</item>
         <item>РТ-51-2</item>
         <item>РТ-51-3</item>
-        <item>РТ-51м</item>
-        <item>РТ-51с</item>
         <item>РТ-52-1</item>
         <item>РТ-52-2</item>
         <item>РТ-52-3</item>
         <item>РТ-61м</item>
         <item>РТ-61с</item>
+        <item>РТ-71</item>
+        <item>РТ-71мн</item>
+        <item>РТ-71мп</item>
+        <item>РТ-71ф</item>
         <item>РТ-г61-1</item>
         <item>РТ-г61-2</item>
-        <item>РТ-з31</item>
         <item>РТ-з41</item>
-        <item>РТ-з51с</item>
-        <item>РТ-з61</item>
         <item>РТ-з61с</item>
+        <item>РТ-з71</item>
+        <item>РТ-з71мп</item>
+        <item>РТ-п71</item>
         <item>СА-51</item>
         <item>СА-з51</item>
-        <item>СГ-31</item>
-        <item>СГ-32</item>
-        <item>СГ-33</item>
         <item>СГ-41</item>
         <item>СГ-42</item>
         <item>СГ-51</item>
-        <item>СГ-51м</item>
         <item>СГ-52</item>
         <item>СГ-61</item>
         <item>СГ-61м</item>
-        <item>СГ-61с</item>
         <item>СГ-62</item>
-        <item>СЕ-31</item>
+        <item>СГ-71</item>
+        <item>СГ-71мп</item>
+        <item>СГ-72</item>
+        <item>СГ-з71мн</item>
+        <item>СГ-з71мп</item>
         <item>СЕ-41</item>
         <item>СЕ-51</item>
         <item>СЕ-61</item>
-        <item>СЕ-61м</item>
-        <item>СЕ-61с</item>
-        <item>СЛ-31</item>
+        <item>СЕ-71</item>
+        <item>СЕ-71мп</item>
         <item>СЛ-41</item>
         <item>СЛ-51м</item>
         <item>СЛ-61</item>
+        <item>СЛ-61-2</item>
         <item>СЛ-61м</item>
         <item>СЛ-61с</item>
         <item>СЛ-62</item>
-        <item>СМ-31</item>
+        <item>СЛ-71</item>
+        <item>СЛ-71мн</item>
+        <item>СЛ-71мп</item>
+        <item>СЛ-71ф</item>
+        <item>СЛ-72мп</item>
+        <item>СЛ-з51м</item>
+        <item>СЛ-з51с</item>
+        <item>СЛ-з61м</item>
         <item>СМ-41</item>
-        <item>СМ-51м</item>
         <item>СМ-61м</item>
-        <item>СМ-61с</item>
-        <item>СП-31 (тпв)</item>
-        <item>СП-31 (іппів)</item>
-        <item>СП-32</item>
-        <item>СП-33</item>
-        <item>СП-34</item>
+        <item>СМ-71</item>
+        <item>СМ-71мп</item>
+        <item>СМ-зп71</item>
+        <item>СМ-п71</item>
         <item>СП-41 (тпв)</item>
-        <item>СП-41 (іппів)</item>
+        <item>СП-41 (гап)</item>
         <item>СП-42</item>
         <item>СП-43</item>
         <item>СП-44</item>
-        <item>СП-45</item>
-        <item>СП-46</item>
         <item>СП-51</item>
-        <item>СП-51м</item>
         <item>СП-52</item>
-        <item>СП-52м</item>
         <item>СП-53</item>
-        <item>СП-54</item>
         <item>СП-61</item>
         <item>СП-61м</item>
-        <item>СП-61с</item>
         <item>СП-62</item>
         <item>СП-62м</item>
         <item>СП-62с</item>
         <item>СП-63</item>
-        <item>СП-63м</item>
         <item>СП-64</item>
-        <item>СП-з31</item>
+        <item>СП-71</item>
+        <item>СП-71мп</item>
+        <item>СП-71ф</item>
+        <item>СП-72</item>
+        <item>СП-72мп</item>
+        <item>СП-73</item>
+        <item>СП-73мп</item>
+        <item>СП-74</item>
+        <item>СП-74мп</item>
         <item>СП-з41</item>
         <item>СП-з51</item>
-        <item>СП-з51с</item>
         <item>СП-з61</item>
-        <item>СП-з61с</item>
-        <item>СП-з62</item>
         <item>СП-з62с</item>
-        <item>СР-31</item>
-        <item>СР-32</item>
-        <item>СР-33</item>
+        <item>СП-з71</item>
+        <item>СП-з71мп</item>
+        <item>СП-з71ф</item>
+        <item>СП-з72</item>
+        <item>СП-з72мп</item>
+        <item>СП-з73мп</item>
+        <item>СП-зг61 (гап)</item>
+        <item>СП-зг61 (гап)</item>
+        <item>СП-зп71</item>
+        <item>СП-п61 (гап)</item>
+        <item>СП-п61 (іппів)</item>
+        <item>СП-п71</item>
         <item>СР-41</item>
         <item>СР-42</item>
         <item>СР-51</item>
-        <item>СР-51м</item>
         <item>СР-61</item>
-        <item>СР-61м</item>
-        <item>СР-61с</item>
-        <item>СР-з51м</item>
-        <item>СР-з51с</item>
-        <item>СТ-31</item>
+        <item>СР-61м (встар)</item>
+        <item>СР-61м (cоц)</item>
+        <item>СР-71</item>
+        <item>СР-71</item>
+        <item>СР-71мп (встар)</item>
+        <item>СР-71мп (cоц)</item>
+        <item>СР-72мп</item>
+        <item>СР-з41</item>
+        <item>СР-з71</item>
+        <item>СР-з71мп</item>
         <item>СТ-41</item>
         <item>СТ-51</item>
-        <item>СТ-51м</item>
         <item>СТ-61</item>
         <item>СТ-61м</item>
-        <item>СТ-61с</item>
-        <item>СТ-з61с</item>
+        <item>СТ-71</item>
+        <item>СТ-71мн</item>
+        <item>СТ-71мп</item>
+        <item>СТ-71ф</item>
+        <item>СТ-з41</item>
+        <item>СТ-з61м</item>
+        <item>СТ-з71</item>
+        <item>СТ-з71мп</item>
+        <item>СТ-зп61</item>
+        <item>СТ-зп71</item>
         <item>СТ-п61</item>
-        <item>ТА-31</item>
+        <item>СТ-п71</item>
         <item>ТА-41</item>
         <item>ТА-51</item>
         <item>ТА-51м</item>
@@ -1331,56 +1657,58 @@
         <item>ТА-61</item>
         <item>ТА-61м</item>
         <item>ТА-61с</item>
-        <item>ТА-з31</item>
+        <item>ТА-71 (атеп)</item>
+        <item>ТА-71</item>
+        <item>ТА-71мн</item>
+        <item>ТА-71мп</item>
+        <item>ТА-71ф</item>
         <item>ТА-з41</item>
         <item>ТА-з51</item>
-        <item>ТА-з51с</item>
         <item>ТА-з61</item>
         <item>ТА-з61с</item>
-        <item>ТВ-31</item>
-        <item>ТВ-32</item>
+        <item>ТА-з71</item>
+        <item>ТА-з71мп</item>
         <item>ТВ-41</item>
         <item>ТВ-42</item>
         <item>ТВ-51</item>
         <item>ТВ-51м</item>
-        <item>ТВ-51с</item>
         <item>ТВ-61</item>
         <item>ТВ-61м</item>
         <item>ТВ-61с</item>
-        <item>ТВ-з31</item>
+        <item>ТВ-71</item>
+        <item>ТВ-71мн</item>
+        <item>ТВ-71мп</item>
+        <item>ТВ-71ф</item>
         <item>ТВ-з41</item>
         <item>ТВ-з51</item>
         <item>ТВ-з61</item>
         <item>ТВ-з61с</item>
+        <item>ТВ-з71</item>
+        <item>ТВ-з71мп</item>
         <item>ТЕ-61-1</item>
         <item>ТЕ-61-2</item>
-        <item>ТЗ-31</item>
-        <item>ТЗ-32</item>
         <item>ТЗ-41</item>
         <item>ТЗ-42</item>
         <item>ТЗ-51</item>
-        <item>ТЗ-51м</item>
-        <item>ТЗ-51с</item>
         <item>ТЗ-52</item>
         <item>ТЗ-61</item>
         <item>ТЗ-61м</item>
         <item>ТЗ-61с</item>
         <item>ТЗ-62</item>
-        <item>ТЗ-з61</item>
+        <item>ТЗ-71</item>
+        <item>ТЗ-71мн</item>
+        <item>ТЗ-71мп</item>
+        <item>ТЗ-71ф</item>
+        <item>ТЗ-72</item>
         <item>ТЗ-з61м</item>
-        <item>ТЗ-з61с</item>
-        <item>ТІ-31 (апепс)</item>
-        <item>ТІ-31 (ітм)</item>
-        <item>ТІ-32</item>
+        <item>ТЗ-з71</item>
+        <item>ТЗ-п71</item>
         <item>ТІ-41 (апепс)</item>
         <item>ТІ-41 (ітм)</item>
         <item>ТІ-42</item>
         <item>ТІ-51 (апепс)</item>
         <item>ТІ-51 (ітм)</item>
-        <item>ТІ-51м (апепс)</item>
-        <item>ТІ-51м (ітм)</item>
-        <item>ТІ-51с (апепс)</item>
-        <item>ТІ-51с (ітм)</item>
+        <item>ТІ-51м</item>
         <item>ТІ-52</item>
         <item>ТІ-61 (апепс)</item>
         <item>ТІ-61 (ітм)</item>
@@ -1388,30 +1716,49 @@
         <item>ТІ-61м (ітм)</item>
         <item>ТІ-61с (апепс)</item>
         <item>ТІ-61с (ітм)</item>
+        <item>ТІ-62 (апепс)</item>
         <item>ТІ-62 (ітм)</item>
-        <item>ТІ-62 (тпт)</item>
+        <item>ТІ-71</item>
+        <item>ТІ-71</item>
+        <item>ТІ-71мн (апепс)</item>
+        <item>ТІ-71мн (ітм)</item>
+        <item>ТІ-71мп (апепс)</item>
+        <item>ТІ-71мп (ітм)</item>
+        <item>ТІ-71ф</item>
+        <item>ТІ-72</item>
         <item>ТІ-з61м</item>
-        <item>ТК-31</item>
+        <item>ТІ-з71мп</item>
+        <item>ТІ-п71</item>
         <item>ТК-41</item>
         <item>ТК-51</item>
         <item>ТК-51м</item>
         <item>ТК-51с</item>
         <item>ТК-61м</item>
         <item>ТК-61с</item>
-        <item>ТМ-31</item>
-        <item>ТМ-32</item>
+        <item>ТК-71 (аесіітф)</item>
+        <item>ТК-71</item>
+        <item>ТК-71мн</item>
+        <item>ТК-71мп</item>
+        <item>ТК-71ф</item>
         <item>ТМ-41</item>
         <item>ТМ-42</item>
         <item>ТМ-51</item>
-        <item>ТМ-51м (апепс)</item>
-        <item>ТМ-51м (р)</item>
-        <item>ТМ-51с</item>
+        <item>ТМ-51м</item>
         <item>ТМ-52</item>
-        <item>ТМ-61</item>
-        <item>ТМ-61м</item>
+        <item>ТМ-61 (апепс)</item>
+        <item>ТМ-61 (тк)</item>
+        <item>ТМ-61м (апепс)</item>
+        <item>ТМ-61м (апепс)</item>
         <item>ТМ-61с</item>
         <item>ТМ-62</item>
-        <item>ТО-31</item>
+        <item>ТМ-71</item>
+        <item>ТМ-71</item>
+        <item>ТМ-71мн</item>
+        <item>ТМ-71мп (апепс)</item>
+        <item>ТМ-71мп (тк)</item>
+        <item>ТМ-72</item>
+        <item>ТМ-з71</item>
+        <item>ТМ-п71</item>
         <item>ТО-41</item>
         <item>ТО-51</item>
         <item>ТО-51м</item>
@@ -1419,8 +1766,10 @@
         <item>ТО-61</item>
         <item>ТО-61м</item>
         <item>ТО-61с</item>
-        <item>ТО-з51с</item>
-        <item>ТП-31</item>
+        <item>ТО-71</item>
+        <item>ТО-71мн</item>
+        <item>ТО-71мп</item>
+        <item>ТО-71ф</item>
         <item>ТП-41</item>
         <item>ТП-42</item>
         <item>ТП-51</item>
@@ -1429,24 +1778,25 @@
         <item>ТП-61</item>
         <item>ТП-61м</item>
         <item>ТП-61с</item>
-        <item>ТП-з31</item>
-        <item>ТП-з61</item>
-        <item>ТР-31</item>
-        <item>ТР-32</item>
+        <item>ТП-71</item>
+        <item>ТП-71мн</item>
+        <item>ТП-71мп</item>
+        <item>ТП-71ф</item>
+        <item>ТП-з71мп</item>
         <item>ТР-41</item>
         <item>ТР-42</item>
         <item>ТР-51</item>
-        <item>ТР-51м</item>
-        <item>ТР-51с</item>
         <item>ТР-52</item>
         <item>ТР-61</item>
         <item>ТР-61м</item>
         <item>ТР-61с</item>
         <item>ТР-62</item>
-        <item>ТС-31 (теуіаес)</item>
-        <item>ТС-31 (тс)</item>
-        <item>ТС-32</item>
-        <item>ТС-33</item>
+        <item>ТР-71</item>
+        <item>ТР-71мн (апепс)</item>
+        <item>ТР-71мн (апепс)</item>
+        <item>ТР-71мп</item>
+        <item>ТР-71ф</item>
+        <item>ТР-72</item>
         <item>ТС-41 (теуіаес)</item>
         <item>ТС-41 (тс)</item>
         <item>ТС-42 (теуіаес)</item>
@@ -1454,38 +1804,50 @@
         <item>ТС-43</item>
         <item>ТС-51 (теуіаес)</item>
         <item>ТС-51 (тс)</item>
-        <item>ТС-51м (теуіаес)</item>
-        <item>ТС-51м (тс)</item>
-        <item>ТС-51с (теуіаес)</item>
-        <item>ТС-51с (тс)</item>
+        <item>ТС-51м</item>
+        <item>ТС-51с</item>
         <item>ТС-53</item>
-        <item>ТС-61</item>
+        <item>ТС-61 (теуіаес)</item>
+        <item>ТС-61 (тс)</item>
         <item>ТС-61м (теуіаес)</item>
         <item>ТС-61м (тс)</item>
+        <item>ТС-61мп (теуіаес)</item>
+        <item>ТС-61мп (тс)</item>
         <item>ТС-61с (теуіаес)</item>
         <item>ТС-61с (тс)</item>
-        <item>ТС-62</item>
-        <item>ТС-г61-1</item>
-        <item>ТС-г61-2</item>
+        <item>ТС-71</item>
+        <item>ТС-71</item>
+        <item>ТС-71мн (теуіаес)</item>
+        <item>ТС-71мн (тс)</item>
+        <item>ТС-71мп (теуіаес)</item>
+        <item>ТС-71мп (тс)</item>
+        <item>ТС-71ф (теуіаес)</item>
+        <item>ТС-71ф (тс)</item>
         <item>ТС-з31</item>
         <item>ТС-з41</item>
         <item>ТС-з41м</item>
-        <item>ТС-з53м</item>
-        <item>ТС-з61</item>
         <item>ТС-з61м (теуіаес)</item>
         <item>ТС-з61м (тс)</item>
         <item>ТС-з61с (теуіаес)</item>
         <item>ТС-з61с (тс)</item>
-        <item>ТФ-31</item>
+        <item>ТС-з71</item>
+        <item>ТС-з71мн</item>
+        <item>ТС-з71мп (теуіаес)</item>
+        <item>ТС-з71мп (тс)</item>
+        <item>ТС-п61</item>
+        <item>ТС-п71 (теуіаес)</item>
+        <item>ТС-п71 (теуіаес)</item>
+        <item>ТС-п71 (тс)</item>
         <item>ТФ-41</item>
         <item>ТФ-51</item>
         <item>ТФ-51м</item>
         <item>ТФ-51с</item>
         <item>ТФ-61м</item>
         <item>ТФ-61с</item>
-        <item>ТЯ-31</item>
-        <item>ТЯ-32</item>
-        <item>ТЯ-33</item>
+        <item>ТФ-71</item>
+        <item>ТФ-71мн</item>
+        <item>ТФ-71мп</item>
+        <item>ТФ-71ф</item>
         <item>ТЯ-41</item>
         <item>ТЯ-42</item>
         <item>ТЯ-51</item>
@@ -1497,23 +1859,29 @@
         <item>ТЯ-61м</item>
         <item>ТЯ-61с (аесіітф)</item>
         <item>ТЯ-61с (аесіітф)</item>
-        <item>ТЯ-62</item>
-        <item>УВ-31</item>
-        <item>УВ-32</item>
+        <item>ТЯ-62 (аесіітф)</item>
+        <item>ТЯ-71</item>
+        <item>ТЯ-71мн</item>
+        <item>ТЯ-71мп (аесіітф)</item>
+        <item>ТЯ-71мп (аесіітф)</item>
+        <item>ТЯ-71ф</item>
+        <item>ТЯ-72</item>
+        <item>УБ-71</item>
         <item>УВ-41</item>
         <item>УВ-42</item>
         <item>УВ-51</item>
-        <item>УВ-51м</item>
         <item>УВ-61</item>
         <item>УВ-61м</item>
         <item>УВ-61с</item>
-        <item>УВ-з31</item>
+        <item>УВ-71</item>
+        <item>УВ-71мн (м)</item>
+        <item>УВ-71мн (м)</item>
+        <item>УВ-71мп</item>
+        <item>УВ-71ф</item>
         <item>УВ-з41</item>
         <item>УВ-з51</item>
         <item>УВ-з61</item>
-        <item>УД-51м</item>
-        <item>УЕ-31</item>
-        <item>УЕ-32</item>
+        <item>УВ-з71</item>
         <item>УЕ-41</item>
         <item>УЕ-42</item>
         <item>УЕ-51</item>
@@ -1522,15 +1890,12 @@
         <item>УЕ-61</item>
         <item>УЕ-61м</item>
         <item>УЕ-61с</item>
-        <item>УЕ-62</item>
-        <item>УЕ-з31</item>
+        <item>УЕ-71</item>
+        <item>УЕ-71мн</item>
+        <item>УЕ-71мп</item>
+        <item>УЕ-71ф</item>
         <item>УЕ-з41</item>
         <item>УЕ-з51м</item>
-        <item>УЕ-з61</item>
-        <item>УЕ-з61м</item>
-        <item>УЕ-з61с</item>
-        <item>УЗ-31</item>
-        <item>УЗ-32</item>
         <item>УЗ-41</item>
         <item>УЗ-42</item>
         <item>УЗ-51</item>
@@ -1538,269 +1903,353 @@
         <item>УЗ-61</item>
         <item>УЗ-61м</item>
         <item>УЗ-61с</item>
-        <item>УЗ-з31</item>
+        <item>УЗ-71</item>
+        <item>УЗ-71мн</item>
+        <item>УЗ-71мп</item>
+        <item>УЗ-71ф</item>
         <item>УЗ-з41</item>
         <item>УЗ-з61</item>
-        <item>УІ-31</item>
+        <item>УЗ-з61с</item>
+        <item>УЗ-з71</item>
+        <item>УЗ-з71ф</item>
         <item>УІ-41</item>
         <item>УІ-51</item>
-        <item>УІ-51м</item>
         <item>УІ-61</item>
         <item>УІ-61м</item>
-        <item>УК-31</item>
-        <item>УК-32</item>
+        <item>УІ-71</item>
+        <item>УІ-71мн</item>
+        <item>УІ-71мп</item>
+        <item>УІ-71ф</item>
+        <item>УІ-з71</item>
         <item>УК-41</item>
         <item>УК-42</item>
         <item>УК-51</item>
-        <item>УК-51м</item>
         <item>УК-52</item>
         <item>УК-61</item>
         <item>УК-61м</item>
-        <item>УК-61с</item>
-        <item>УК-62</item>
-        <item>УК-з31</item>
-        <item>УК-з41 (ммес)</item>
-        <item>УК-з41 (ммес)</item>
-        <item>УК-з61</item>
+        <item>УК-71</item>
+        <item>УК-71мн</item>
+        <item>УК-71мп</item>
+        <item>УК-71ф</item>
+        <item>УК-з41</item>
+        <item>УК-з71</item>
         <item>УЛ-61</item>
         <item>УЛ-61м</item>
-        <item>УМ-31</item>
-        <item>УМ-32</item>
+        <item>УЛ-71</item>
+        <item>УЛ-71мп</item>
+        <item>УЛ-71ф</item>
+        <item>УЛ-з71</item>
         <item>УМ-41</item>
         <item>УМ-42</item>
         <item>УМ-51</item>
-        <item>УМ-51м</item>
         <item>УМ-61</item>
         <item>УМ-61м</item>
         <item>УМ-61с</item>
+        <item>УМ-71</item>
+        <item>УМ-71мн</item>
+        <item>УМ-71мп</item>
+        <item>УМ-71ф</item>
         <item>УМ-з51</item>
         <item>УМ-з51м</item>
         <item>УМ-з61</item>
-        <item>УМ-з61м</item>
-        <item>УМ-з61с</item>
-        <item>УП-61</item>
-        <item>УП-з61</item>
-        <item>УС-31</item>
+        <item>УП-71</item>
+        <item>УП-71ф</item>
+        <item>УПЗ-71мп</item>
+        <item>УПЗ-з71мп</item>
         <item>УС-41</item>
         <item>УС-42</item>
         <item>УС-51</item>
-        <item>УС-51м</item>
         <item>УС-52</item>
         <item>УС-61</item>
         <item>УС-61м</item>
-        <item>УС-61с</item>
-        <item>УС-62</item>
+        <item>УС-71</item>
+        <item>УС-71мн</item>
+        <item>УС-71мп</item>
+        <item>УС-71ф</item>
         <item>УС-з51м</item>
-        <item>УС-з61</item>
         <item>УС-з61м</item>
         <item>УС-з61с</item>
-        <item>УУ-61</item>
-        <item>УУ-з61</item>
-        <item>ФБ-31</item>
-        <item>ФБ-32</item>
         <item>ФБ-41</item>
         <item>ФБ-42</item>
         <item>ФБ-51</item>
         <item>ФБ-51м</item>
-        <item>ФБ-51с</item>
         <item>ФБ-52</item>
         <item>ФБ-61</item>
         <item>ФБ-61м</item>
         <item>ФБ-61с</item>
         <item>ФБ-62</item>
-        <item>ФБ-62м</item>
         <item>ФБ-63</item>
         <item>ФБ-63м</item>
-        <item>ФБ-з31</item>
+        <item>ФБ-71</item>
+        <item>ФБ-71мн</item>
+        <item>ФБ-71мп</item>
+        <item>ФБ-71ф</item>
+        <item>ФБ-72</item>
+        <item>ФБ-73</item>
+        <item>ФБ-73ф</item>
         <item>ФБ-з41</item>
         <item>ФБ-з51</item>
         <item>ФБ-з51с</item>
         <item>ФБ-з61</item>
         <item>ФБ-з61с</item>
-        <item>ФЕ-31</item>
+        <item>ФБ-з71</item>
+        <item>ФБ-з71мп</item>
         <item>ФЕ-41</item>
         <item>ФЕ-51</item>
-        <item>ФЕ-51м</item>
-        <item>ФЕ-51с</item>
         <item>ФЕ-61</item>
         <item>ФЕ-61м</item>
         <item>ФЕ-61с</item>
-        <item>ФЕ-з41</item>
-        <item>ФІ-31</item>
-        <item>ФІ-33</item>
+        <item>ФЕ-71</item>
+        <item>ФЕ-71мн</item>
+        <item>ФЕ-71мп</item>
+        <item>ФЕ-71ф</item>
         <item>ФІ-41</item>
         <item>ФІ-42</item>
         <item>ФІ-43</item>
         <item>ФІ-51</item>
         <item>ФІ-51-1</item>
         <item>ФІ-51-2</item>
-        <item>ФІ-51м</item>
-        <item>ФІ-51с</item>
         <item>ФІ-52</item>
-        <item>ФІ-52м</item>
-        <item>ФІ-52с</item>
         <item>ФІ-61</item>
         <item>ФІ-61м</item>
-        <item>ФІ-63</item>
-        <item>ФІ-63м</item>
-        <item>ФК-31</item>
-        <item>ФК-32</item>
+        <item>ФІ-62</item>
+        <item>ФІ-62м</item>
+        <item>ФІ-71</item>
+        <item>ФІ-71мн (iб)</item>
+        <item>ФІ-71мн (iб)</item>
+        <item>ФІ-71мп (iб)</item>
+        <item>ФІ-71мп (iб)</item>
+        <item>ФІ-71ф (iб)</item>
+        <item>ФІ-71ф (ммзi)</item>
+        <item>ФІ-72</item>
+        <item>ФІ-72мн (iб)</item>
+        <item>ФІ-72мн (iб)</item>
+        <item>ФІ-72мп (iб)</item>
+        <item>ФІ-72мп (iб)</item>
+        <item>ФІ-73</item>
+        <item>ФІ-73мн</item>
+        <item>ФІ-73мп</item>
+        <item>ФІ-74</item>
         <item>ФК-41</item>
         <item>ФК-42</item>
         <item>ФК-51</item>
-        <item>ФК-51м</item>
-        <item>ФК-51с</item>
-        <item>ФК-61</item>
-        <item>ФК-61м</item>
+        <item>ФК-61м (втмiпм)</item>
+        <item>ФК-61м (втмiпм)</item>
         <item>ФК-61с</item>
-        <item>ФК-з31</item>
+        <item>ФК-71</item>
+        <item>ФК-71мн</item>
+        <item>ФК-71мп</item>
+        <item>ФК-71ф</item>
         <item>ФК-з41</item>
         <item>ФК-з51</item>
         <item>ФК-з51с</item>
         <item>ФК-з61</item>
         <item>ФК-з61с</item>
-        <item>ФЛ-31</item>
-        <item>ФЛ-32</item>
+        <item>ФК-з71</item>
+        <item>ФК-з71мп</item>
         <item>ФЛ-41</item>
         <item>ФЛ-42</item>
         <item>ФЛ-51</item>
-        <item>ФЛ-51м</item>
-        <item>ФЛ-52с</item>
-        <item>ФЛ-61</item>
+        <item>ФЛ-61-1</item>
+        <item>ФЛ-61-2</item>
+        <item>ФЛ-61-3</item>
+        <item>ФЛ-61-4</item>
         <item>ФЛ-61м</item>
-        <item>ФЛ-61с (лвчікм)</item>
-        <item>ФЛ-61с (лвчікм)</item>
-        <item>ФЛ-62</item>
+        <item>ФЛ-61с</item>
         <item>ФЛ-62м</item>
         <item>ФЛ-62с</item>
-        <item>ФМ-31</item>
-        <item>ФМ-32</item>
+        <item>ФЛ-71</item>
+        <item>ФЛ-71мн</item>
+        <item>ФЛ-71мп</item>
+        <item>ФЛ-72</item>
+        <item>ФЛ-72мн</item>
+        <item>ФЛ-72мп</item>
+        <item>ФЛ-з61с</item>
+        <item>ФЛ-з71мп</item>
+        <item>ФЛ-п71</item>
         <item>ФМ-41</item>
         <item>ФМ-42</item>
-        <item>ФМ-51м</item>
-        <item>ФМ-51с</item>
-        <item>ФМ-61</item>
+        <item>ФМ-61-1</item>
+        <item>ФМ-61-2</item>
+        <item>ФМ-61-3</item>
+        <item>ФМ-61-4</item>
         <item>ФМ-61м</item>
         <item>ФМ-61с</item>
-        <item>ФМ-з51с</item>
+        <item>ФМ-71</item>
+        <item>ФМ-71мн</item>
+        <item>ФМ-71мп</item>
+        <item>ФМ-71ф</item>
         <item>ФН-61</item>
         <item>ФН-61м</item>
         <item>ФН-61с</item>
-        <item>ФП-61</item>
-        <item>ФП-61м</item>
+        <item>ФН-71</item>
+        <item>ФН-71мн</item>
+        <item>ФН-71мп</item>
         <item>ФП-61с</item>
-        <item>ФС-31</item>
-        <item>ФС-32</item>
+        <item>ФП-71</item>
+        <item>ФП-71мн</item>
+        <item>ФП-71мп</item>
+        <item>ФП-71ф</item>
         <item>ФС-41</item>
         <item>ФС-51</item>
-        <item>ФС-51м</item>
-        <item>ФС-51с</item>
-        <item>ФС-61</item>
         <item>ФС-61м</item>
         <item>ФС-61с</item>
-        <item>ФТ-31</item>
-        <item>ФТ-32</item>
+        <item>ФС-71</item>
+        <item>ФС-71мн</item>
+        <item>ФС-71мп</item>
+        <item>ФС-71ф</item>
+        <item>ФС-з71ф</item>
         <item>ФТ-41</item>
         <item>ФТ-42</item>
-        <item>ФТ-42с</item>
-        <item>ФТ-51м</item>
-        <item>ФТ-51с</item>
-        <item>ФТ-61</item>
-        <item>ФТ-61м (мотаттом)</item>
-        <item>ФТ-61м (мотаттом)</item>
+        <item>ФТ-61м</item>
         <item>ФТ-61с</item>
-        <item>ФТ-62</item>
-        <item>ФФ-31</item>
-        <item>ФФ-32</item>
+        <item>ФТ-71</item>
+        <item>ФТ-71мн</item>
+        <item>ФТ-71мп</item>
+        <item>ФТ-71ф</item>
         <item>ФФ-41</item>
         <item>ФФ-42</item>
         <item>ФФ-51</item>
-        <item>ФФ-51м</item>
         <item>ФФ-52</item>
-        <item>ФФ-52м</item>
-        <item>ФФ-61 (пф)</item>
-        <item>ФФ-61 (пф)</item>
-        <item>ФФ-61м (пф)</item>
-        <item>ФФ-61м (пф)</item>
+        <item>ФФ-61-1</item>
+        <item>ФФ-61-2</item>
+        <item>ФФ-61м-1</item>
+        <item>ФФ-61м-2</item>
         <item>ФФ-62</item>
         <item>ФФ-62м</item>
-        <item>ХА-31</item>
+        <item>ФФ-71</item>
+        <item>ФФ-71мн-1</item>
+        <item>ФФ-71мн-2</item>
+        <item>ФФ-71мп-1</item>
+        <item>ФФ-71мп-2</item>
+        <item>ФФ-71ф</item>
+        <item>ФФ-72</item>
+        <item>ФФ-72мн</item>
+        <item>ФФ-72мп</item>
+        <item>ФФ-72ф</item>
         <item>ХА-41</item>
         <item>ХА-51</item>
-        <item>ХА-51м</item>
-        <item>ХА-51с</item>
         <item>ХА-61</item>
         <item>ХА-61м</item>
         <item>ХА-61с</item>
-        <item>ХД-31</item>
+        <item>ХА-71</item>
+        <item>ХА-71мн</item>
+        <item>ХА-71мп</item>
+        <item>ХА-71ф</item>
+        <item>ХА-п71</item>
         <item>ХД-41</item>
         <item>ХД-51</item>
         <item>ХД-61</item>
-        <item>ХЕ-31</item>
+        <item>ХД-71</item>
+        <item>ХД-71мн</item>
+        <item>ХД-71мп</item>
         <item>ХЕ-41</item>
-        <item>ХЕ-42</item>
         <item>ХЕ-51</item>
-        <item>ХЕ-51м</item>
-        <item>ХЕ-51с</item>
         <item>ХЕ-61</item>
         <item>ХЕ-61м</item>
         <item>ХЕ-61с</item>
-        <item>ХК-31</item>
+        <item>ХЕ-71</item>
+        <item>ХЕ-71мн</item>
+        <item>ХЕ-71мп</item>
+        <item>ХЕ-71ф</item>
+        <item>ХЕ-72</item>
+        <item>ХЕ-п71 (техв)</item>
+        <item>ХЕ-п71</item>
         <item>ХК-41</item>
         <item>ХК-51</item>
-        <item>ХК-51м</item>
-        <item>ХК-51с</item>
         <item>ХК-61м</item>
         <item>ХК-61с</item>
-        <item>ХК-з31</item>
+        <item>ХК-71</item>
+        <item>ХК-71мн</item>
+        <item>ХК-71мп</item>
+        <item>ХК-71ф</item>
         <item>ХК-з41</item>
         <item>ХК-з51с</item>
-        <item>ХК-з61</item>
         <item>ХК-з61с</item>
-        <item>ХМ-31</item>
+        <item>ХК-з71</item>
+        <item>ХК-з71мп</item>
+        <item>ХК-зп71</item>
+        <item>ХК-п71</item>
         <item>ХМ-41</item>
         <item>ХМ-42</item>
         <item>ХМ-51</item>
-        <item>ХМ-51м</item>
-        <item>ХМ-51с</item>
         <item>ХМ-61</item>
-        <item>ХМ-61м</item>
+        <item>ХМ-61м (хткс)</item>
+        <item>ХМ-61м (хткс)</item>
         <item>ХМ-61с</item>
-        <item>ХН-31</item>
-        <item>ХН-32</item>
+        <item>ХМ-71</item>
+        <item>ХМ-71мн</item>
+        <item>ХМ-71мп</item>
+        <item>ХМ-71ф</item>
+        <item>ХМ-п71 (хткс)</item>
+        <item>ХМ-п71</item>
         <item>ХН-41</item>
-        <item>ХН-42</item>
         <item>ХН-51</item>
-        <item>ХН-51м</item>
         <item>ХН-51с</item>
         <item>ХН-61</item>
         <item>ХН-61м</item>
+        <item>ХН-61мн</item>
         <item>ХН-61с</item>
-        <item>ХН-62</item>
+        <item>ХН-71</item>
+        <item>ХН-71мн (тнртазхт)</item>
+        <item>ХН-71мн (тнртазхт)</item>
+        <item>ХН-71мп</item>
+        <item>ХН-71ф</item>
+        <item>ХН-72</item>
+        <item>ХН-г62-1</item>
+        <item>ХН-г62-2</item>
         <item>ХН-з41</item>
         <item>ХН-з61с</item>
         <item>ХН-зп61</item>
-        <item>ХН-п61</item>
-        <item>ХО-31</item>
+        <item>ХН-зп71</item>
+        <item>ХН-п72</item>
         <item>ХО-41</item>
-        <item>ХО-51 (охтатор)</item>
-        <item>ХО-51 (охтатор)</item>
-        <item>ХО-51м</item>
-        <item>ХО-51с</item>
+        <item>ХО-51</item>
         <item>ХО-61</item>
         <item>ХО-61м</item>
         <item>ХО-61с</item>
-        <item>ХП-31</item>
+        <item>ХО-71</item>
+        <item>ХО-71мн</item>
+        <item>ХО-71мп</item>
         <item>ХП-41</item>
-        <item>ХП-51</item>
+        <item>ХП-51 (хткм)</item>
+        <item>ХП-51 (хткм)</item>
         <item>ХП-51м</item>
         <item>ХП-51с</item>
         <item>ХП-61</item>
         <item>ХП-61м</item>
         <item>ХП-61с</item>
+        <item>ХП-71</item>
+        <item>ХП-71мн</item>
+        <item>ХП-71мп</item>
         <item>ХП-з51</item>
-        <item>СЛ-61-1</item>
-        <item>ІА-42</item>
+        <item>ХП-п71</item>
+        <item>ІА-71мн</item>
+        <item>ІА-72мп</item>
+        <item>ІА-73мп</item>
+        <item>ІА-з72мп</item>
+        <item>ІТ-71мн</item>
+        <item>ІТ-73мп</item>
+        <item>ІТ-74мп</item>
+        <item>ЛА-71</item>
+        <item>ЛА-72</item>
+        <item>ЛА-73</item>
+        <item>ЛН-71</item>
+        <item>ЛФ-71</item>
+        <item>УВ-72</item>
+        <item>УЗ-72</item>
+        <item>УМ-72</item>
+        <item>УС-72</item>
+        <item>БМ-63</item>
+        <item>КВ-74</item>
+        <item>ТІ-72</item>
+        <item>ТЯ-72мп</item>
+        <item>УЕ-72</item>
+        <item>ОГ-г61-1</item>
+        <item>ОГ-г61-2</item>
+        <item>ОМ-г61-1</item>
+        <item>ОМ-г61-2</item>
+        <item>СП-75</item>
     </string-array>
 
     <string-array name="teachers_name">

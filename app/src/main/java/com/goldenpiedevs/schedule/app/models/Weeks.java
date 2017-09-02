@@ -8,8 +8,8 @@ import java.util.Calendar;
  * Класс - обект содержащий в себе две недели с днями
  */
 public class Weeks implements Serializable {
-    ArrayList<Day> WeekOne = new ArrayList<>();
-    ArrayList<Day> WeekTwo = new ArrayList<>();
+    private ArrayList<Day> weekOne = new ArrayList<>();
+    private ArrayList<Day> weekTwo = new ArrayList<>();
 
     public static boolean isWeekEven() {
         Calendar cal1 = Calendar.getInstance();
@@ -23,7 +23,7 @@ public class Weeks implements Serializable {
      * @param a день
      */
     public void addtoFirstWeek(Day a) {
-        WeekOne.add(a);
+        weekOne.add(a);
     }
 
     /**
@@ -32,7 +32,7 @@ public class Weeks implements Serializable {
      * @param a день
      */
     public void addtoSecondWeek(Day a) {
-        WeekTwo.add(a);
+        weekTwo.add(a);
     }
 
     /**
@@ -42,7 +42,9 @@ public class Weeks implements Serializable {
      * @return день
      */
     public Day getDayofFirstWeek(int a) {
-        return WeekOne.get(a);
+        if (weekOne.size() >= a)
+            return weekOne.get(a);
+        return new Day();
     }
 
     /**
@@ -52,7 +54,9 @@ public class Weeks implements Serializable {
      * @return день
      */
     public Day getDayofSecondWeek(int a) {
-        return WeekTwo.get(a);
+        if (weekTwo.size() >= a)
+            return weekTwo.get(a);
+        return new Day();
     }
 
     /**
@@ -61,7 +65,7 @@ public class Weeks implements Serializable {
      * @return размер недлеи в зависимости от количества учебных дней в ней
      */
     public int getSizeofFirstWeek() {
-        return WeekOne.size();
+        return weekOne.size();
     }
 
     /**
@@ -70,6 +74,6 @@ public class Weeks implements Serializable {
      * @return размер недлеи в зависимости от количества учебных дней в ней
      */
     public int getSizeofSecondWeek() {
-        return WeekTwo.size();
+        return weekTwo.size();
     }
 }
