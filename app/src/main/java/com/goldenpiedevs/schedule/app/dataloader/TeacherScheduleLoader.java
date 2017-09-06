@@ -61,7 +61,7 @@ public class TeacherScheduleLoader extends AsyncTask<String, Integer, String> {
         int code = Const.STATUS_CODE_NOT_FOUND;
         try {
             code = new JSONObject(result).getInt("statusCode");
-        } catch (JSONException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         if (code == Const.STATUS_CODE_OK) {

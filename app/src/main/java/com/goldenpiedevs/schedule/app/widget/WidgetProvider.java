@@ -67,6 +67,9 @@ public class WidgetProvider extends AppWidgetProvider {
             String[] days = context.getResources().getStringArray(R.array.Days);
             Weeks weeks = new GroupIO().getGroupFromFile(sPref.getString(Const.GROUP, ""), context);
 
+            if(weeks == null)
+                return remoteViews;
+
             int dow = -666;
 
             int week = ((calendar.get(Calendar.WEEK_OF_YEAR) % 2) + 1);

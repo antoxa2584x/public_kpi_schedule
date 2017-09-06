@@ -201,7 +201,11 @@ public class TeacherScheduleFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        getActivity().unregisterReceiver(ONTIMEBRODCAST);
+        try {
+            getActivity().unregisterReceiver(ONTIMEBRODCAST);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
