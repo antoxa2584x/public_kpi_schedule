@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 
+import com.androidnetworking.AndroidNetworking;
 import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.answers.Answers;
 import com.goldenpiedevs.schedule.app.dataloader.io.GroupIO;
@@ -33,11 +34,15 @@ public class ScheduleApplication extends Application {
     @Override
     public void onCreate() {
         sPref = getSharedPreferences(Const.SCHEDULE, Context.MODE_PRIVATE);
+        AndroidNetworking.initialize(getApplicationContext());
 
         initRateDialog();
         addSomeUkrainianLocale();
 
-        Fabric.with(this, new Answers(), new Crashlytics());
+        if (BuildConfig.DEBUG)
+            Thread.setDefaultUncaughtExceptionHandler(new TopExceptionHandler(this));
+        else
+            Fabric.with(this, new Answers(), new Crashlytics());
 
         if (sPref.getInt("version_code", 0) < BuildConfig.VERSION_CODE)
             sPref.edit().putInt("version_code", BuildConfig.VERSION_CODE).apply();

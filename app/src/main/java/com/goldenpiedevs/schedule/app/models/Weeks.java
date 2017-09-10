@@ -42,7 +42,7 @@ public class Weeks implements Serializable {
      * @return день
      */
     public Day getDayofFirstWeek(int a) {
-        if (weekOne.size() >= a)
+        if (weekOne.size() > a)
             return weekOne.get(a);
         return new Day();
     }
@@ -54,7 +54,7 @@ public class Weeks implements Serializable {
      * @return день
      */
     public Day getDayofSecondWeek(int a) {
-        if (weekTwo.size() >= a)
+        if (weekTwo.size() > a)
             return weekTwo.get(a);
         return new Day();
     }

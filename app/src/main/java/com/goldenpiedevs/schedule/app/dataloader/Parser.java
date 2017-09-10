@@ -11,7 +11,9 @@ import com.goldenpiedevs.schedule.app.models.jsonobjects.GroupModel;
 import com.goldenpiedevs.schedule.app.models.jsonobjects.LessonData;
 import com.goldenpiedevs.schedule.app.models.jsonobjects.LessonResponseModel;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
+import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +25,8 @@ public class Parser {
 
     public Parser(String lessonJson, boolean teacherLoader) {
 
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder()
+                .excludeFieldsWithModifiers(Modifier.FINAL, Modifier.TRANSIENT, Modifier.STATIC).create();
         lesson = gson.fromJson(lessonJson, LessonResponseModel.class);
         this.teacherLoader = teacherLoader;
     }
@@ -53,6 +56,10 @@ public class Parser {
         int weekNum = week ? 1 : 2;
 
         List<LessonData> lessonDataList = new ArrayList<>();
+
+        if (lesson == null)
+            return null;
+
         for (int i = 0; i < lesson.getData().size(); i++) {
             LessonData lessonData = lesson.getData().get(i);
             if (Integer.parseInt(lessonData.getDayNumber()) == dayNumb

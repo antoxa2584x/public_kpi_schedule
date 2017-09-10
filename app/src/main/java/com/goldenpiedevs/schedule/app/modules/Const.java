@@ -11,7 +11,7 @@ public class Const {
     public static final String WRITE_LOG = "write_log";
     public static final String SHOW_ADS = "show_ads";
     public static final String DATE_FORMAT = "yyyyMMddHHmmss";
-    public static final String API_URL = "http://api.rozklad.org.ua/v2/";
+    public static final String API_URL = "https://api.rozklad.org.ua/v2/";
     public static final String EXTRA_LESSON_NUM = "extra_lesson_num";
     public static final String LATITUDE = "latitude";
     public static final String LONGITUDE = "longitude";

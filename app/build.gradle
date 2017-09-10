@@ -15,8 +15,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 100170906
-        versionName "5.1.2"
+        versionCode 100170908
+        versionName "5.2.0"
         signingConfig signingConfigs.release
     }
     buildTypes {
@@ -49,6 +49,8 @@ dependencies {
     compile 'com.github.gabrielemariotti.cards:cardslib-cards:2.1.0'
     compile 'com.afollestad.material-dialogs:commons:0.9.0.1'
     compile 'com.nhaarman.listviewanimations:lib-core:3.1.0'
+
+    compile 'com.amitshekhar.android:android-networking:1.0.0'
 
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'

@@ -34,15 +34,23 @@ public class ListProvider implements RemoteViewsFactory { //:TODO: Fix Data get
         Day listItemList = new Day();
         day = new Day();
         weeks = new GroupIO().getGroupFromFile(sPref.getString(Const.GROUP, ""), mContext);
+
+        if (weeks == null)
+            return;
+
         if (sPref.getInt("widget_week", 0) == 1) {
             listItemList = weeks.getDayofFirstWeek(sPref.getInt("widget_day", 0) - 2);
         } else if (sPref.getInt("widget_week", 0) == 2) {
             listItemList = weeks.getDayofSecondWeek(sPref.getInt("widget_day", 0) - 2);
         }
+
         checkDay(listItemList);
     }
 
     private void checkDay(Day listItemList) {
+        if (listItemList.size() == 0)
+            return;
+
         for (int i = 0; i < listItemList.size(); i++) {
             Lesson lesson = listItemList.get(i);
             Lesson final_lesson = new Lesson();

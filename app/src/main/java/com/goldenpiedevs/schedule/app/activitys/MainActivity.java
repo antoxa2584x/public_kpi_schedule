@@ -26,9 +26,7 @@ import android.widget.Toast;
 
 import com.goldenpiedevs.schedule.app.R;
 import com.goldenpiedevs.schedule.app.ScheduleApplication;
-import com.goldenpiedevs.schedule.app.dataloader.SongDataLoader;
 import com.goldenpiedevs.schedule.app.events.FabClickedEvent;
-import com.goldenpiedevs.schedule.app.events.SongInfoLoaded;
 import com.goldenpiedevs.schedule.app.fragments.MapFragment;
 import com.goldenpiedevs.schedule.app.fragments.ScheduleFragment;
 import com.goldenpiedevs.schedule.app.fragments.TeacherScheduleFragment;
@@ -37,6 +35,8 @@ import com.goldenpiedevs.schedule.app.modules.Const;
 import com.goldenpiedevs.schedule.app.modules.CustomViews.ControllableAppBarLayout;
 import com.goldenpiedevs.schedule.app.modules.NetworkCheck;
 import com.melnykov.fab.FloatingActionButton;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -47,8 +47,6 @@ import java.util.Random;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
 
 @SuppressWarnings("deprecation")
 public class MainActivity extends AppCompatActivity {
